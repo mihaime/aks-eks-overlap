@@ -1,0 +1,19 @@
+- make sure the contents of ~/.aws/credentials for access & secret match the ones set in terraform.tfvars OTHERWISE you will get an error when using the KUBECONFIG file for EKS !!!
+- add dependency on EKS and AKS for when deploying the voting app (I doubt TF is aware of this)
+- BUGS
+# ATTACHMENT GIVES CONTEXT DEADLINE EXCEEDED error
+# https://aviatrix.atlassian.net/browse/AVX-64714
+# timeout of 30 second for attachment
+# https://aviatrix.atlassian.net/browse/AVX-64537
+
+- with NLB in AWS I had constant connection stalling (2-3 requests were fast the rest super slow..annoying) => everywhere it says it is because of NLP reuse of tcp sessions => switch to ALB there
+- if you forget the annotation in EKS to deploy NLB then it will deploy Classic LB (being phased out) and you will have the problem from above
+- Had a chicken and egg problem...module for AKS creates AKS Nodes but then to deploy an app you need the K8S provider which wants as argument the kubeconfig file and of course if AKS did not run yet = error
+Terraform plan does not check for the file presence there but defers it to the apply phase. During apply it will see what resources need to be created and if they belong to k8s provider (deployment, svc, pods, etc) then it will complain with not finding the file.
+Solution is to use a null_resource to trigger kubectl commands to create the kubeconfig file and then set all kubernetes_<xxx> resources to depend on it that they do not try to get deployed and trigger the provider error unless the EKS/AKS clusters are finished deploying via their separate azure modules (unrelated to k8s which is for deploying stuff once K8S has been installed)
+```
+provider "kubernetes" {
+  alias       = "eks"
+  config_path = "${path.module}/kubeconfig-eks.yaml"
+}
+```

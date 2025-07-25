@@ -1,0 +1,3107 @@
+{
+  "version": 4,
+  "terraform_version": "1.12.2",
+  "serial": 223,
+  "lineage": "a4ccdc84-2517-61a1-56cf-80a758152d06",
+  "outputs": {
+    "aks_cluster_name": {
+      "value": "aks-cluster",
+      "type": "string"
+    },
+    "aks_fqdn": {
+      "value": "aks-gy4eduj9.hcp.westeurope.azmk8s.io",
+      "type": "string"
+    },
+    "aks_kube_config": {
+      "value": "apiVersion: v1\nclusters:\n- cluster:\n    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUU2RENDQXRDZ0F3SUJBZ0lRYmtZSDJwcVJ3VFlsa2gzMXU1VUJRekFOQmdrcWhraUc5dzBCQVFzRkFEQU4KTVFzd0NRWURWUVFERXdKallUQWdGdzB5TlRBM01UVXlNVE13TXpGYUdBOHlNRFUxTURjeE5USXhOREF6TVZvdwpEVEVMTUFrR0ExVUVBeE1DWTJFd2dnSWlNQTBHQ1NxR1NJYjNEUUVCQVFVQUE0SUNEd0F3Z2dJS0FvSUNBUURnCi9Cd0ZGRGVnejEvd285QUdrZnF5d3BtbGVKb3hXQnoyakhwTDY4Zm9KS3gwU3RsR1QyQTVvemZnNG5ZZkUrbUUKbWJrYWpDakM3L2JOdnNJV0trNWprbDllUHRDMnp6bjFvSnNzcStCYlloSjJjdDRGMkZ1L0dZS011TVVmYVZEMgpTemFVOFNiVENKUTRIdWNWMzlnSTVPazRhdmJwV0ZHQldIRnMzRkg4RzU2ZjFzcGNzYmlKcnBaN0VpTkNtbUVpCmk4NkoveXhlNmtNVm1KRkY5VzdTbTVxWXpZeDdXd0lCV3pOdmtyU21YV1RabS9TZ3BIZk9VZW9xcFVOTEtNaDAKLzdYMW9JOExjM0oyUFRXUDhrZEFwbnFFTUc3dG8rcHo3ZkN5UUkvdXdENVpPK2NjOTdUV1hjM3hwY2p4bUQ1eApMTW9xSkhxOHhHaEVpa0w4SmpQU3lhV3B0bXd0SVFGY01BbWRaRGc5U1JXVWpFeXAyK2wrVHN6dFFyVEN3cEZwCndqUDZCdXZ5QWdRdzV4NDFUdUVKbCtBenYrYXhFSmF2Y1NqcEdaZjNOUHNXaGp6TTJNaFBEam94d3B4c3kyRVcKeW9ucGFSUVUrUDVPWklkNjRoUXNiMENGQ0RENVd6RUU3WU9OeFZqRExLbCtEQVhrUi9QODlGc1JLdVN6b0RyMgpud0trMjdQMDloOUFVcGNBRUx4TUVqdXZWT2l5bW10bGFhUGlIZmlsM0lqTDAwMXYwcWszVnErMWFnTFFRbURxCnlJTFZKSWxyeTlPUFhwSko2SEFOMk1sNGtpd1NYS3BLV200WnBQbXRJeFIwNXVlbkhEdjg4V2lOVTJsU2JxS2QKbXBQQ2RFNkhSOXR4NUoweHFORkQzUVJTQnJJNkRWUnR1U0NEZzdCTnNRSURBUUFCbzBJd1FEQU9CZ05WSFE4QgpBZjhFQkFNQ0FxUXdEd1lEVlIwVEFRSC9CQVV3QXdFQi96QWRCZ05WSFE0RUZnUVVtWXhHUlIzL2VLRzFMc2NiCkp4aDlZNGJCV1A0d0RRWUpLb1pJaHZjTkFRRUxCUUFEZ2dJQkFKV0NPbnEvbGJKUUdWSUorS2pac1pVNVlON1gKRERrVmVxb3k2TjdONzNOVzUvbnJsYTJ1RUpacnU5V09aeTdMUFdiL2xtdHhUTmp2STFRN0laSG9OdERNeW1nMgpUR2lDcVVGUmVISFA4K2FVQWk3dWFHeE1CaGxhQlFrM1R5dThLTGI0UGdUUHVlamlJZ20yTXZYZ3BKTHoxbkNPClRkYm9wQXRXSy9RWHpBaHhSSGVPR016bS9idU1hVWtON2JPbXFCRTR2THlwbkZSeXRra01HMW1GYldkbE5mSm4KbWExVkpObFdxSDRCTGF4Z0RjLzRTc2hWbWticzgvSDNZM3FWNXphYlEvdlArcFV2THd2UldrblI3eGIxVy9MMwpMaTVidDUwbVloV2V2TGR3NC8zcml2aEhTVkt3amV2NzIzeVRGcTBtSUdmR00zYWRYMXl5d2llVS8rZDhuOC9TCnZrSXMvS2ZvOURlOCtOc1c3TVU0VHlYUE1PZUp3WkdPdm03c1hKUXpPTEMyZGRYcHE0Tjl5TUZHMVovOFlpOWgKRVpub0Mrdm0wRmRLSUNjMEZpRzhzdHBCNUJvVTFjOXBaNGVIc2NXUVR6cjlsQWhSS0dEL2V5Y1ZzaHhNYkd1KwpwT3gweFZTMGUzd2g5UzNqem1mWXRZRXExQkZsVWQ0OEFWYjkwYmVxeVlIam04aEFmUGFIWnA4eGl3a2pvbEpoCjJWZklaK1NIYVlGN3lTV1VQSTVxUHZReXNLV29uU25DdTFMcG5Kbmc1OEg5U2FwY3RLR0JDOVBxcCsrdEZrZ0gKc0RmUjNRdHc5NzNVRnR2WWxnaW0rZ1VpZzFpYzk4eFNNUEJ1MjBUNjdSMVh6c2w1Q3lhM0h2TWdkV0VtSUd3QgppS3dkcmpvakRRQnRHQXJmCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    server: https://aks-gy4eduj9.hcp.westeurope.azmk8s.io:443\n  name: aks-cluster\ncontexts:\n- context:\n    cluster: aks-cluster\n    user: clusterUser_aviatrix-transit-rg_aks-cluster\n  name: aks-cluster\ncurrent-context: aks-cluster\nkind: Config\npreferences: {}\nusers:\n- name: clusterUser_aviatrix-transit-rg_aks-cluster\n  user:\n    client-certificate-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUZIakNDQXdhZ0F3SUJBZ0lSQUtRVnRTcUVVRjVqVXJlS1hrY3lqU2t3RFFZSktvWklodmNOQVFFTEJRQXcKRFRFTE1Ba0dBMVVFQXhNQ1kyRXdIaGNOTWpVd056RTFNakV6TURNeFdoY05NamN3TnpFMU1qRTBNRE14V2pBdwpNUmN3RlFZRFZRUUtFdzV6ZVhOMFpXMDZiV0Z6ZEdWeWN6RVZNQk1HQTFVRUF4TU1iV0Z6ZEdWeVkyeHBaVzUwCk1JSUNJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBZzhBTUlJQ0NnS0NBZ0VBbExtRGsvNTVYeG5tejRKZFZPYjMKSUVwSjVvRFh5NllWa1IvWCtwa3QvWGhEUnhPVUZDdkVoWldPQlVnRDJIalozbHhNM0I5U2FyOUM2UTlueWw0SgowbG9meDd1Q090L2VSalVoWVJXS1h0UERCMC9RNlA5NHJiaGgrTVlCL3hnbkVCRjJEVCtWbnR3d3FRNkRmNDY0Cm1EMzZvazJXYjFtZmFHT0lKQ0ZiN2FSbGdlalp2RGNTaHFVUW5tMlYvaExCTXFVc2hRc2o5ZCtGZlVva1FKMnQKWjA2cXNNNFE5QXZSelpNVm55TXFZTHZUNXF6U1FONUdCR1RKcXM4aDFwZHJ0eUc5SjJsNUxiM25tMnVTZ2Y3TAorNngybyt2czdjRWc3Q3RVN0djUENoNGFlU3B0NFBNMnp1clcxakxEQXJRUUJlYjYwUXBndmlNNGNUSjdhRG9rCnh0cjZ3UWNyVUMwU0pkelVTN3J0aWZaSlp3bEFrd1VWb21HNzNIazdPaGo3Um8weTd6UEppZ01DRi9pWDZlRlEKVnJhY254ZHJkT29OeVpMellPYStmQklhQ1FRaWxCeEcyTGV1VWRpSEd5Mjd1QkQzdzIzWk1kd09NMCtiVWRnZwo3ZVJzSEdQdlZHZFhMWVIxd1luVUdVYkxqZkJ6VWpPTWE0Z3REa1FzSzlGR3ZJVmlXenk2bjNEczNrMEo0dkZ2ClQrUEEzQ0FseE9WT0o5OUVvZktlL3lZNDc5clRZTmYxMGFQczBtU1RYYjdjT3hHZmtHbDRNbThSM3Yxdm5OTDYKVmx4YkVhbzc5L0s5SXRDSnB4eG9yelFGOE9KdGsrYUhKdUZtRXlaeE5vMGllbFhEVUdmb3ZVSWZwN3cvWi9wVAphVXpmWVc3NzFMcXJNRm1sWHV2QXVta0NBd0VBQWFOV01GUXdEZ1lEVlIwUEFRSC9CQVFEQWdXZ01CTUdBMVVkCkpRUU1NQW9HQ0NzR0FRVUZCd01DTUF3R0ExVWRFd0VCL3dRQ01BQXdId1lEVlIwakJCZ3dGb0FVbVl4R1JSMy8KZUtHMUxzY2JKeGg5WTRiQldQNHdEUVlKS29aSWh2Y05BUUVMQlFBRGdnSUJBSUZiVkVpTjBDaTFvVmRkOWtFUQo5TXg1Z1pUdnBSWjRLdlQ0dlBOSFpaYzM0NFJ6OHBjUTNsS1lnYzN5SUJEcldpa1NQV2ZPdE5SRGh5N0RDMDNsCkxPSVppcHUybGVRUmxxT2NLajAyNVBka0dwZlIvWEI2VlJtV1h0c2U3R2RUYURZMnhNV3E5M2FidXc3cklJTEcKU3NUalZUVDVQaXZHdlFkcUJibnV1K0l0Q0Vld2Y4NUNvb3BtdlprUWNXNFc2NUdPWS9wekx2RVdGVm93bFdJNApCc0c2U0ZJbHZRa3RCbnk5UWpMSWk0T2NTZnhERFB5OThKN3FXQVJ5eElJcHdiNjFSdzdNa2VSQzNjdThIdkc1Cjlzc1AyOTlyR3VvZm9SWitCbWpuR0JWY1E1NmtHS1NCRCtPczFaR05lb0x2RHJLNFdmZ3pab0k5dlpZd3pnbXAKMDRyNlRwNldsa01QT3k4bm1OTUV6YStNZk9vRjdkbnhzTFg0YzVidlhsd3RuT0VsZVdUZDVhdVpXdTAyN0pmaApMWTc2VVNRV2QzRTdRYnhBQWt0NWVUL0h2dDAySFRERUFDYUVvS0pISC83bUN3Q1UvSklsSTJ2UTFVT1F1akhmCmNkb1MzWm9EbXl4anBJUWFQTmU5NFA1RjlyaHFoTUh3OHlpYy9TT25PRVphcmlZVGNaMUp1czBqYWNCREpKNUkKd1Y0Q251SVRmVEhNUHhSN05tQTQwSmtaWGxVc2N1NGJuanVYWWlZU2MwSGoxSkd2QnplTTFjOUFOUjkzeVIrbApBQ1NLZmxoUFIyTnJrNTlnRnhGbjFWa2hua28vQm5NZHBqTlk3M2pGOHl6cXJZUFFCSWF0WmsreFl2MVFWa0JNCm02RnN2VnlKcW4wNTgxKy84YjRhdklYdgotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==\n    client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlKS0FJQkFBS0NBZ0VBbExtRGsvNTVYeG5tejRKZFZPYjNJRXBKNW9EWHk2WVZrUi9YK3BrdC9YaERSeE9VCkZDdkVoWldPQlVnRDJIalozbHhNM0I5U2FyOUM2UTlueWw0SjBsb2Z4N3VDT3QvZVJqVWhZUldLWHRQREIwL1EKNlA5NHJiaGgrTVlCL3hnbkVCRjJEVCtWbnR3d3FRNkRmNDY0bUQzNm9rMldiMW1mYUdPSUpDRmI3YVJsZ2VqWgp2RGNTaHFVUW5tMlYvaExCTXFVc2hRc2o5ZCtGZlVva1FKMnRaMDZxc000UTlBdlJ6Wk1WbnlNcVlMdlQ1cXpTClFONUdCR1RKcXM4aDFwZHJ0eUc5SjJsNUxiM25tMnVTZ2Y3TCs2eDJvK3ZzN2NFZzdDdFU3R2NQQ2g0YWVTcHQKNFBNMnp1clcxakxEQXJRUUJlYjYwUXBndmlNNGNUSjdhRG9reHRyNndRY3JVQzBTSmR6VVM3cnRpZlpKWndsQQprd1VWb21HNzNIazdPaGo3Um8weTd6UEppZ01DRi9pWDZlRlFWcmFjbnhkcmRPb055Wkx6WU9hK2ZCSWFDUVFpCmxCeEcyTGV1VWRpSEd5Mjd1QkQzdzIzWk1kd09NMCtiVWRnZzdlUnNIR1B2VkdkWExZUjF3WW5VR1ViTGpmQnoKVWpPTWE0Z3REa1FzSzlGR3ZJVmlXenk2bjNEczNrMEo0dkZ2VCtQQTNDQWx4T1ZPSjk5RW9mS2UveVk0NzlyVApZTmYxMGFQczBtU1RYYjdjT3hHZmtHbDRNbThSM3Yxdm5OTDZWbHhiRWFvNzkvSzlJdENKcHh4b3J6UUY4T0p0CmsrYUhKdUZtRXlaeE5vMGllbFhEVUdmb3ZVSWZwN3cvWi9wVGFVemZZVzc3MUxxck1GbWxYdXZBdW1rQ0F3RUEKQVFLQ0FnQjI1R0w2WVZsWG5GWTJsd25UZ0p3WVZTc0V1UVZLQ09oK3pvMFRDWGVKaEtXTDRXdmtRQ1RuZ1dvNgpjSnFhWitvTFo1QU4vSUFmVSt6Q2NZMVFhcUxCWlVpNG0vNTg0RkJKb2RtZ1NkOEc5WlNZZU1jU0xJQ2xwNXV5CmkyQTNOSEN0MkxlZDJiSGJnRHpxT084SWZ1aTAwLzlUMW1DbmZXY0F4V2lsTVlIUzFUUk1pUC9mQmN1cWxiUlcKWWxhZytRODNWSEhsbmNWT25qU1J0ejZKNVVNbExlOG9UbU9oSlAzQXNJOTlXMWhhWW0wQW9ER29wOGdqWlFzTwpvRzExcGpEM0FtSzdhZ2IwZVRiNHVTTXpCcVM4K2Q4U0pkMlBKM0FSUElhMFFhTDFQS0YvTVZzTGxJTEJJVjFECmVPc0tjelhIOGlHYUVRakxsMDVjdDdXTjJjVmhkdFpXRGgvSFVtbSszUUZ4cXFhWWdSUFkrenA4d0Z4T2RDQ2gKeWp6WTRtVHpqTFErSG9sak9oU1ZzUzQ2aHJaQTAzb0diTXJLQmV4eGNCc1RyYUduaUtONitGaENFcWdFZ1h6UwpPUko5bENpS0wzTFUrZVdXaDFxNmVhWmZzL2I5YzlXcUc4S29sRy9VS0FwZDBjVEFINUQ0WFNhZHhYMmQ2K0hoCnYzRC9vRkE5N256SFRJdnZFeU03Sjd5VzBZRnMxL2sxMW83RWlibjAybDFZQVQzWGtUMDNKbmpmUUNwRTIwUHcKREdIQnFYRHBkczQ5UzQ4djJTcG4zWUdoRjlPclRaNS9MMCtNVjRQYTVRbXd2YzJLWk9sdlJJd0hvNnZDcC84YQpVUG1jc3BLM1FjYVg4ZlRIZnpBSGpQeDVST0REQ3FNTmwvbmVwWitzd1JiSlVURHZUUUtDQVFFQXhkT3lHNWNBCmFFTnY3VE5zNERic1JrM2JXWUNmU1MrVUZZTWJZTzI2Q3lBMmJPeDV4bjZSK0trOW94RWtxODhMYXc1OERRZ24KWnhrRXBjekRwdHFSSGh3Q2NNb3NvY2IwdmtzZXduTzhac1p2VG1sZ2dlRzh3WnV5NFFyMG5YNTVBeW5XY3dEdAovRWE3ck5oaUNFT2xaTWxEbUcxMVpVcjhzeVlMWlU5TVJkRXFLVTE3RHpES013WnBKTk1iT2gvMGF6TWczUnQ4CkcvTkhZVmhwcVFDenBXL0dldHhaSjFvYUVTb3BGaUJ5SkprNXNwSmlpWTEwc1FoVlo3OENJZ1ZLVWRqWm01ancKcXRIMG9YeDYxcTRYR1BnODBSUWNDTktJWllVMHNPdzk5dzVqL3ZaRC9WcU5qYVduckI2dDlield6a2d5OVh4dwpteXZ3RFY0ZExHajd0d0tDQVFFQXdIVnRCTjh3Qi9YRlRNWnRzaldQN0puTFVpWlhLREI0ZzhpbkFlYVJwMDFYCkNjdFJxM2dQcUo4TkV5OWY4ZU9YQTk1WGQ0cnVqb29UQ0NGelVRUHBwdUxHeVFwSGlYWUo5QVFNb3R5Mm9CeDMKVCttMGZ0eWRYZk5qcndqenk0QlVEeXVaMCtJVWVCSFZtM0VkQXg5bkp3Tm80MEpXRUlDc3ZWUmlIUW1xZWtaUQpsTWR6NTZYa1pOdUVCWDl4THZoamU0aTIwa0syRk9qMFBhcWRONFBsSG9tTXBhMmVmS1Q2QVZxVXREODBBS0N1Cmg1MUpXTDB3VXo3Q1hvZk9LV01TYjVRZm0xMVdHaU04QkgwVjlENHpwbkpsTFkvTnFXbzMxN3pmN0xGT2JiRGQKdlAxWXJmRzRBbXo2dktBSXNpdVNXSkNMZGgrd2JqYmd0NjZua3VvNjN3S0NBUUVBbC9zc2NVL1FDMG9MK2pLdwo2WXlvZHRhbnR4byt4VzRkR1czUkllVmhNZHo4a3pBVjJpNHhITldBdWYrWXFibjE3cmlCQzA0Qlg0NXo2S0RvCml3Nk53SkVLT3ZiSDFUM1JsMFNGRENUNFVBa1JTQzlpNmtXdnl4cEFFZTVsd1gyQm9MR0t4RzJwYUZBN0xPNU0KV2tjR0VPa2kyajcxbXUxQ09LdjR3MHRwc0pXaUMzc3dHSnFHTFM4MnBnamRlUWxGc1BubHZKaTUvNHNtZ3AzMwpCdFM0TDFneEp3Q1VLY3hxREZmVW11QXdjUGVhd1JyL1F1Zi9CMmI4bmlpN2pjRjh1R2FkdjVGL0MrMGpRTkV1CldqSURJcmJMbW1FVnJKMTZGbXlBNzQ5L2g0ZHh3VllYSTlSbXZiVFBuVWN3cElNQWtCZ2R0a1YxQ1hGM0NmNE0KOGFweC93S0NBUUFjZ2toLzdEL0ZMaGJuNUl6alZTUFl2SDl0ejlnaFQrektPTExraVM4U1JWYWJVTTdzUTRDdQpUY0UyRWxKNEZtcU1YQ2RBd2dmTWZZK01LTWhZTytna25Ic3QxS1A4TE13VXBYVHB1eUFpWDVVYzlWV1RaVUs2ClpBOWtJa05hNWN1TjQ3dUpzM2Vzd1plT3l4YXRHNzIvL2JWUDFNZkM4Z3lranhkcGpjRC9FK05qNXBlNHZNNDAKVW9BZ0FGelh4RnVZTlF3LzRUbnZwd0puRUJyeDJrdmFWaTNMYlFpSkZqY2lkRFNLN3NIWlJmUVVpcXdPeFJlZgpmVEIxcUZCVnVTTkYrLzhpbUpUa2trdVZycUhONkZqbVV4UEJ5QWVERFFUd3BEM1haZnhrSzBydGIrbnUrbHR6Cm9Ja1QzL0RwMDZKK0ZBdFVtQ1VlYm1xalN1L3Z4MXFwQW9JQkFCa3F0M1ZNSi9iazBkcjB6VzRVUmp5ODFxa3IKbCtJQWNaVHFqZ2ZHYUFmVXkrd2Yyc3VaUjFkZGhtT3E5ZFBtdUttRXNZdm00dm5DaTk3OVRJemlpS2RQOGQyQgpZU0ZsdXh1MVVvS1NsQ3RkZ3p2Y3ZNUEFHbDhqSHMrOGk0aWlHbzhSM3ltY1Y5RUdsZUhJRFdGQlpoMmR3bkpaClFGcGxXdEN4U0duS21Ba1pVOU1ybUlRemZ5Mlpzc3JmY1Q4SUgxTWVzVDZZOEx2cyttdXVLUkVqemRTUllUOVoKK3BXNUtUcXFVcVk3TldsNWRRTExnWWlDMDE2WExMQUovQlB3T24ySTloRnNlRHpLSnFGQk13VFY1Vnk2d1BQYQpyS3N3VXBScWp3ZkNCdVdJSnJwQ1NDdjQ5YkhUdVlZakY4Tld6R2xFdFNTaHpaamZybUdpS29iWFp4VT0KLS0tLS1FTkQgUlNBIFBSSVZBVEUgS0VZLS0tLS0K\n    token: jr9su4eye96yljn3po084glgq5k19oibrl1msrbsxz09sfiv1cri95zrg0qmwth84gq5nxptgv300i2vlqlkq38k9l99vwoh09wa1kxyj8xurnue508t1nwpx2zg6z74\n",
+      "type": "string",
+      "sensitive": true
+    },
+    "aks_node_resource_group": {
+      "value": "MC_aviatrix-transit-rg_aks-cluster_westeurope",
+      "type": "string"
+    },
+    "eks_cluster_certificate_authority": {
+      "value": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJWDNJTE9IUjJINUl3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TlRBM01UVXlNVFUxTXpoYUZ3MHpOVEEzTVRNeU1qQXdNemhhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUMwNFN1aHBwM2dEZ0tXTTFSMXBoMy8wdHM1M242RU9iL1JOZ2ovbE1teTV3T0JMYzFMNStqV1ZqNFMKaWRBWmJwL3paV05CeitxL3hHdVpxREs1VUd2WlFiZkdyTmcvZlFqYm5waU9mTHBFbTRxa0JZbGlnaS8zUGJKOApvTVlhWlJYUXUrY0dCeEhCbWQ4bWpuU2RZTlVVRkFXRHN5VkFzYnpUM1Q5ZWQwNU12Ynp1ZTd1MzRSK0hlVUlLCmt6QzdwK1dWVmlPQm5uREZoaVQ2Z2QyZzZFaDdIOHZLT0I2Q2o1T2lZRE9kWUdQZmRYd21hc080OVZMQmVmTVIKellocE1QOWJ0cisvOFhMbGQwd3ZOOE45RE1IR3A1U1RVVllQUXJXcEovTG1pbGNzdXM4ekMyb3NDVHplQThqVQpkcEpXYTRQNmRhMGhEQjRFRmpDMnlrK1F0eU5WQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJRNXFMdXNjV3FsSWFmbnFqZzVUM0dYd2lsU3lqQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQ01BV1JSU2pFawpOYkxuWGRVSW1lem85RzVFUU13SS9laFZIaElQa0RLTi9taHVERVl0SktHMVo0eXdyQ252d3pMKzY0VGtNQytxCisxVzcyZUVvM3ZkVnRIaFk4N1l0QVlPKzlMZ2JxOTFkbFRESEVIUEhBUHVHMHl6aTBLaXZJaFJQcTdrQmoreFEKN3g4U0hTR041cXZpQXlucVlqbUo2WUtRamszbmxuYjhHTFJCUktQYkE1VEplbUc3MzJ6NE1YRnBTZVVJTC9vUgpWMEpPeThLb1dybnhvZTRNZXhYam9xc2hVd3p6eHpsdEp4YkhuQ01yUTFPRXBYZ0tPU1FXdktVb0trWVVIMnUxCk51WTFwbTBWVjl3Q1RxTEFPME1SbGJnQjJmZHdOWGQrYk9maDJVY2kyd0Q3OEl3NWtIRkZmb3ArN1R1bHZqYjMKb0VZT1hPK2dmR3laCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K",
+      "type": "string"
+    },
+    "eks_cluster_endpoint": {
+      "value": "https://95FA68580904C080C689DE5F44F0CF18.gr7.eu-central-1.eks.amazonaws.com",
+      "type": "string"
+    }
+  },
+  "resources": [
+    {
+      "mode": "data",
+      "type": "aws_caller_identity",
+      "name": "current",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "account_id": "234572319512",
+            "arn": "arn:aws:iam::234572319512:root",
+            "id": "234572319512",
+            "user_id": "234572319512"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aviatrix_transit_gateway_peering",
+      "name": "aws-to-azure-transit-peering",
+      "provider": "provider[\"registry.terraform.io/aviatrixsystems/aviatrix\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "disable_activemesh": false,
+            "enable_insane_mode_encryption_over_internet": false,
+            "enable_max_performance": true,
+            "enable_peering_over_private_network": false,
+            "enable_single_tunnel_mode": false,
+            "gateway1_excluded_network_cidrs": [],
+            "gateway1_excluded_tgw_connections": [],
+            "gateway1_logical_ifnames": null,
+            "gateway2_excluded_network_cidrs": [],
+            "gateway2_excluded_tgw_connections": [],
+            "gateway2_logical_ifnames": [],
+            "id": "avx-eu-central-1-transit~avx-west-europe-transit",
+            "insane_mode": false,
+            "jumbo_frame": false,
+            "prepend_as_path1": null,
+            "prepend_as_path2": null,
+            "transit_gateway_name1": "avx-eu-central-1-transit",
+            "transit_gateway_name2": "avx-west-europe-transit",
+            "tunnel_count": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "aws_internet_gateway.transit_gw",
+            "aws_route_table.transit_rt",
+            "aws_subnet.aws_transit_subnet",
+            "aws_vpc.aws_transit_vpc",
+            "azurerm_resource_group.azure_rg",
+            "azurerm_subnet.azure_transit_subnet",
+            "azurerm_virtual_network.azure_transit_vnet",
+            "module.aws_transit.aviatrix_transit_gateway.default",
+            "module.aws_transit.aviatrix_vpc.bgp_over_lan_vpc",
+            "module.aws_transit.aviatrix_vpc.default",
+            "module.aws_transit.aviatrix_vpc.lan_vpc",
+            "module.azure_transit.aviatrix_transit_gateway.default",
+            "module.azure_transit.aviatrix_vpc.bgp_over_lan_vpc",
+            "module.azure_transit.aviatrix_vpc.default",
+            "module.azure_transit.aviatrix_vpc.lan_vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_iam_role",
+      "name": "eks_cluster_role",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:iam::234572319512:role/eks-cluster-role",
+            "assume_role_policy": "{\"Statement\":[{\"Action\":\"sts:AssumeRole\",\"Effect\":\"Allow\",\"Principal\":{\"Service\":\"eks.amazonaws.com\"}}],\"Version\":\"2012-10-17\"}",
+            "create_date": "2025-07-15T11:04:20Z",
+            "description": "",
+            "force_detach_policies": false,
+            "id": "eks-cluster-role",
+            "inline_policy": [],
+            "managed_policy_arns": [
+              "arn:aws:iam::aws:policy/AmazonEKSClusterPolicy"
+            ],
+            "max_session_duration": 3600,
+            "name": "eks-cluster-role",
+            "name_prefix": "",
+            "path": "/",
+            "permissions_boundary": "",
+            "tags": {},
+            "tags_all": {},
+            "unique_id": "AROATNHMZRMMEKREUHT3B"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "identity": {
+            "account_id": "234572319512",
+            "name": "eks-cluster-role"
+          },
+          "private": "bnVsbA=="
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_internet_gateway",
+      "name": "spoke_igw",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:ec2:eu-central-1:234572319512:internet-gateway/igw-062f9a010cab911b5",
+            "id": "igw-062f9a010cab911b5",
+            "owner_id": "234572319512",
+            "region": "eu-central-1",
+            "tags": {},
+            "tags_all": {},
+            "timeouts": null,
+            "vpc_id": "vpc-048797b2556043224"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "aws_vpc.aws_spoke_vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_internet_gateway",
+      "name": "transit_gw",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:ec2:eu-central-1:234572319512:internet-gateway/igw-0d35abf7a6bb880d6",
+            "id": "igw-0d35abf7a6bb880d6",
+            "owner_id": "234572319512",
+            "region": "eu-central-1",
+            "tags": {},
+            "tags_all": {},
+            "timeouts": null,
+            "vpc_id": "vpc-0824a489e5813427c"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxMjAwMDAwMDAwMDAwLCJkZWxldGUiOjEyMDAwMDAwMDAwMDAsInVwZGF0ZSI6MTIwMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "aws_vpc.aws_transit_vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_route",
+      "name": "spoke_rt_default",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "carrier_gateway_id": "",
+            "core_network_arn": "",
+            "destination_cidr_block": "0.0.0.0/0",
+            "destination_ipv6_cidr_block": "",
+            "destination_prefix_list_id": "",
+            "egress_only_gateway_id": "",
+            "gateway_id": "igw-062f9a010cab911b5",
+            "id": "r-rtb-00cafdbfe83ab93c21080289494",
+            "instance_id": "",
+            "instance_owner_id": "",
+            "local_gateway_id": "",
+            "nat_gateway_id": "",
+            "network_interface_id": "",
+            "origin": "CreateRoute",
+            "region": "eu-central-1",
+            "route_table_id": "rtb-00cafdbfe83ab93c2",
+            "state": "active",
+            "timeouts": null,
+            "transit_gateway_id": "",
+            "vpc_endpoint_id": "",
+            "vpc_peering_connection_id": ""
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjozMDAwMDAwMDAwMDAsImRlbGV0ZSI6MzAwMDAwMDAwMDAwLCJ1cGRhdGUiOjEyMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "aws_internet_gateway.spoke_igw",
+            "aws_route_table.spoke_rt",
+            "aws_vpc.aws_spoke_vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_route",
+      "name": "transit_rt_default",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "carrier_gateway_id": "",
+            "core_network_arn": "",
+            "destination_cidr_block": "0.0.0.0/0",
+            "destination_ipv6_cidr_block": "",
+            "destination_prefix_list_id": "",
+            "egress_only_gateway_id": "",
+            "gateway_id": "igw-0d35abf7a6bb880d6",
+            "id": "r-rtb-03d5d686b7d13d4951080289494",
+            "instance_id": "",
+            "instance_owner_id": "",
+            "local_gateway_id": "",
+            "nat_gateway_id": "",
+            "network_interface_id": "",
+            "origin": "CreateRoute",
+            "region": "eu-central-1",
+            "route_table_id": "rtb-03d5d686b7d13d495",
+            "state": "active",
+            "timeouts": null,
+            "transit_gateway_id": "",
+            "vpc_endpoint_id": "",
+            "vpc_peering_connection_id": ""
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjozMDAwMDAwMDAwMDAsImRlbGV0ZSI6MzAwMDAwMDAwMDAwLCJ1cGRhdGUiOjEyMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "aws_internet_gateway.transit_gw",
+            "aws_route_table.transit_rt",
+            "aws_vpc.aws_transit_vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_route_table",
+      "name": "spoke_rt",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:ec2:eu-central-1:234572319512:route-table/rtb-00cafdbfe83ab93c2",
+            "id": "rtb-00cafdbfe83ab93c2",
+            "owner_id": "234572319512",
+            "propagating_vgws": [],
+            "region": "eu-central-1",
+            "route": [
+              {
+                "carrier_gateway_id": "",
+                "cidr_block": "0.0.0.0/0",
+                "core_network_arn": "",
+                "destination_prefix_list_id": "",
+                "egress_only_gateway_id": "",
+                "gateway_id": "igw-062f9a010cab911b5",
+                "ipv6_cidr_block": "",
+                "local_gateway_id": "",
+                "nat_gateway_id": "",
+                "network_interface_id": "",
+                "transit_gateway_id": "",
+                "vpc_endpoint_id": "",
+                "vpc_peering_connection_id": ""
+              },
+              {
+                "carrier_gateway_id": "",
+                "cidr_block": "10.0.0.0/8",
+                "core_network_arn": "",
+                "destination_prefix_list_id": "",
+                "egress_only_gateway_id": "",
+                "gateway_id": "",
+                "ipv6_cidr_block": "",
+                "local_gateway_id": "",
+                "nat_gateway_id": "",
+                "network_interface_id": "eni-0d7dd6f8915975ac6",
+                "transit_gateway_id": "",
+                "vpc_endpoint_id": "",
+                "vpc_peering_connection_id": ""
+              },
+              {
+                "carrier_gateway_id": "",
+                "cidr_block": "172.16.0.0/12",
+                "core_network_arn": "",
+                "destination_prefix_list_id": "",
+                "egress_only_gateway_id": "",
+                "gateway_id": "",
+                "ipv6_cidr_block": "",
+                "local_gateway_id": "",
+                "nat_gateway_id": "",
+                "network_interface_id": "eni-0d7dd6f8915975ac6",
+                "transit_gateway_id": "",
+                "vpc_endpoint_id": "",
+                "vpc_peering_connection_id": ""
+              },
+              {
+                "carrier_gateway_id": "",
+                "cidr_block": "192.168.0.0/16",
+                "core_network_arn": "",
+                "destination_prefix_list_id": "",
+                "egress_only_gateway_id": "",
+                "gateway_id": "",
+                "ipv6_cidr_block": "",
+                "local_gateway_id": "",
+                "nat_gateway_id": "",
+                "network_interface_id": "eni-0d7dd6f8915975ac6",
+                "transit_gateway_id": "",
+                "vpc_endpoint_id": "",
+                "vpc_peering_connection_id": ""
+              }
+            ],
+            "tags": {
+              "Name": "spoke-rt"
+            },
+            "tags_all": {
+              "Name": "spoke-rt"
+            },
+            "timeouts": null,
+            "vpc_id": "vpc-048797b2556043224"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjozMDAwMDAwMDAwMDAsImRlbGV0ZSI6MzAwMDAwMDAwMDAwLCJ1cGRhdGUiOjEyMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "aws_vpc.aws_spoke_vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_route_table",
+      "name": "transit_rt",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "arn": "arn:aws:ec2:eu-central-1:234572319512:route-table/rtb-03d5d686b7d13d495",
+            "id": "rtb-03d5d686b7d13d495",
+            "owner_id": "234572319512",
+            "propagating_vgws": [],
+            "region": "eu-central-1",
+            "route": [
+              {
+                "carrier_gateway_id": "",
+                "cidr_block": "0.0.0.0/0",
+                "core_network_arn": "",
+                "destination_prefix_list_id": "",
+                "egress_only_gateway_id": "",
+                "gateway_id": "igw-0d35abf7a6bb880d6",
+                "ipv6_cidr_block": "",
+                "local_gateway_id": "",
+                "nat_gateway_id": "",
+                "network_interface_id": "",
+                "transit_gateway_id": "",
+                "vpc_endpoint_id": "",
+                "vpc_peering_connection_id": ""
+              }
+            ],
+            "tags": {
+              "Name": "aviatrix-transit-rt"
+            },
+            "tags_all": {
+              "Name": "aviatrix-transit-rt"
+            },
+            "timeouts": null,
+            "vpc_id": "vpc-0824a489e5813427c"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjozMDAwMDAwMDAwMDAsImRlbGV0ZSI6MzAwMDAwMDAwMDAwLCJ1cGRhdGUiOjEyMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "aws_vpc.aws_transit_vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_route_table_association",
+      "name": "eks_node_subnet_assoc_1",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "gateway_id": "",
+            "id": "rtbassoc-08800dd838e62db0c",
+            "region": "eu-central-1",
+            "route_table_id": "rtb-00cafdbfe83ab93c2",
+            "subnet_id": "subnet-03df964b34a33f302",
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjozMDAwMDAwMDAwMDAsImRlbGV0ZSI6MzAwMDAwMDAwMDAwLCJ1cGRhdGUiOjEyMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "aws_route_table.spoke_rt",
+            "aws_subnet.aws_eks_node_subnet",
+            "aws_vpc.aws_spoke_vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_route_table_association",
+      "name": "eks_node_subnet_assoc_2",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "gateway_id": "",
+            "id": "rtbassoc-0e73b57893b73c0df",
+            "region": "eu-central-1",
+            "route_table_id": "rtb-00cafdbfe83ab93c2",
+            "subnet_id": "subnet-046a1911d7ae22512",
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjozMDAwMDAwMDAwMDAsImRlbGV0ZSI6MzAwMDAwMDAwMDAwLCJ1cGRhdGUiOjEyMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "aws_route_table.spoke_rt",
+            "aws_subnet.aws_eks_node_subnet_2",
+            "aws_vpc.aws_spoke_vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_route_table_association",
+      "name": "spoke_gw_association",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "gateway_id": "",
+            "id": "rtbassoc-0493bbf44b906cb88",
+            "region": "eu-central-1",
+            "route_table_id": "rtb-00cafdbfe83ab93c2",
+            "subnet_id": "subnet-0abd27f8ec0348492",
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjozMDAwMDAwMDAwMDAsImRlbGV0ZSI6MzAwMDAwMDAwMDAwLCJ1cGRhdGUiOjEyMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "aws_route_table.spoke_rt",
+            "aws_subnet.aws_spoke_gw_subnet",
+            "aws_vpc.aws_spoke_vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_route_table_association",
+      "name": "transit_subnet_association",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "gateway_id": "",
+            "id": "rtbassoc-0ea9c2676deec9f30",
+            "region": "eu-central-1",
+            "route_table_id": "rtb-03d5d686b7d13d495",
+            "subnet_id": "subnet-0a2592d056bfd5655",
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjozMDAwMDAwMDAwMDAsImRlbGV0ZSI6MzAwMDAwMDAwMDAwLCJ1cGRhdGUiOjEyMDAwMDAwMDAwMH19",
+          "dependencies": [
+            "aws_route_table.transit_rt",
+            "aws_subnet.aws_transit_subnet",
+            "aws_vpc.aws_transit_vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_subnet",
+      "name": "aws_eks_node_subnet",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "arn": "arn:aws:ec2:eu-central-1:234572319512:subnet/subnet-03df964b34a33f302",
+            "assign_ipv6_address_on_creation": false,
+            "availability_zone": "eu-central-1a",
+            "availability_zone_id": "euc1-az2",
+            "cidr_block": "10.100.1.0/24",
+            "customer_owned_ipv4_pool": "",
+            "enable_dns64": false,
+            "enable_lni_at_device_index": 0,
+            "enable_resource_name_dns_a_record_on_launch": false,
+            "enable_resource_name_dns_aaaa_record_on_launch": false,
+            "id": "subnet-03df964b34a33f302",
+            "ipv6_cidr_block": "",
+            "ipv6_cidr_block_association_id": "",
+            "ipv6_native": false,
+            "map_customer_owned_ip_on_launch": false,
+            "map_public_ip_on_launch": false,
+            "outpost_arn": "",
+            "owner_id": "234572319512",
+            "private_dns_hostname_type_on_launch": "ip-name",
+            "region": "eu-central-1",
+            "tags": {
+              "Name": "eks-node-subnet"
+            },
+            "tags_all": {
+              "Name": "eks-node-subnet"
+            },
+            "timeouts": null,
+            "vpc_id": "vpc-048797b2556043224"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDAsImRlbGV0ZSI6MTIwMDAwMDAwMDAwMH0sInNjaGVtYV92ZXJzaW9uIjoiMSJ9",
+          "dependencies": [
+            "aws_vpc.aws_spoke_vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_subnet",
+      "name": "aws_eks_node_subnet_2",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "arn": "arn:aws:ec2:eu-central-1:234572319512:subnet/subnet-046a1911d7ae22512",
+            "assign_ipv6_address_on_creation": false,
+            "availability_zone": "eu-central-1b",
+            "availability_zone_id": "euc1-az3",
+            "cidr_block": "10.100.9.0/24",
+            "customer_owned_ipv4_pool": "",
+            "enable_dns64": false,
+            "enable_lni_at_device_index": 0,
+            "enable_resource_name_dns_a_record_on_launch": false,
+            "enable_resource_name_dns_aaaa_record_on_launch": false,
+            "id": "subnet-046a1911d7ae22512",
+            "ipv6_cidr_block": "",
+            "ipv6_cidr_block_association_id": "",
+            "ipv6_native": false,
+            "map_customer_owned_ip_on_launch": false,
+            "map_public_ip_on_launch": false,
+            "outpost_arn": "",
+            "owner_id": "234572319512",
+            "private_dns_hostname_type_on_launch": "ip-name",
+            "region": "eu-central-1",
+            "tags": {
+              "Name": "eks-node-subnet-2"
+            },
+            "tags_all": {
+              "Name": "eks-node-subnet-2"
+            },
+            "timeouts": null,
+            "vpc_id": "vpc-048797b2556043224"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDAsImRlbGV0ZSI6MTIwMDAwMDAwMDAwMH0sInNjaGVtYV92ZXJzaW9uIjoiMSJ9",
+          "dependencies": [
+            "aws_vpc.aws_spoke_vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_subnet",
+      "name": "aws_internal_lb_subnet",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "arn": "arn:aws:ec2:eu-central-1:234572319512:subnet/subnet-0c881a9382ca39fa6",
+            "assign_ipv6_address_on_creation": false,
+            "availability_zone": "eu-central-1a",
+            "availability_zone_id": "euc1-az2",
+            "cidr_block": "10.100.2.0/24",
+            "customer_owned_ipv4_pool": "",
+            "enable_dns64": false,
+            "enable_lni_at_device_index": 0,
+            "enable_resource_name_dns_a_record_on_launch": false,
+            "enable_resource_name_dns_aaaa_record_on_launch": false,
+            "id": "subnet-0c881a9382ca39fa6",
+            "ipv6_cidr_block": "",
+            "ipv6_cidr_block_association_id": "",
+            "ipv6_native": false,
+            "map_customer_owned_ip_on_launch": false,
+            "map_public_ip_on_launch": false,
+            "outpost_arn": "",
+            "owner_id": "234572319512",
+            "private_dns_hostname_type_on_launch": "ip-name",
+            "region": "eu-central-1",
+            "tags": {
+              "Name": "internal-lb-subnet"
+            },
+            "tags_all": {
+              "Name": "internal-lb-subnet"
+            },
+            "timeouts": null,
+            "vpc_id": "vpc-048797b2556043224"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDAsImRlbGV0ZSI6MTIwMDAwMDAwMDAwMH0sInNjaGVtYV92ZXJzaW9uIjoiMSJ9",
+          "dependencies": [
+            "aws_vpc.aws_spoke_vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_subnet",
+      "name": "aws_spoke_gw_subnet",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "arn": "arn:aws:ec2:eu-central-1:234572319512:subnet/subnet-0abd27f8ec0348492",
+            "assign_ipv6_address_on_creation": false,
+            "availability_zone": "eu-central-1a",
+            "availability_zone_id": "euc1-az2",
+            "cidr_block": "10.100.0.0/28",
+            "customer_owned_ipv4_pool": "",
+            "enable_dns64": false,
+            "enable_lni_at_device_index": 0,
+            "enable_resource_name_dns_a_record_on_launch": false,
+            "enable_resource_name_dns_aaaa_record_on_launch": false,
+            "id": "subnet-0abd27f8ec0348492",
+            "ipv6_cidr_block": "",
+            "ipv6_cidr_block_association_id": "",
+            "ipv6_native": false,
+            "map_customer_owned_ip_on_launch": false,
+            "map_public_ip_on_launch": true,
+            "outpost_arn": "",
+            "owner_id": "234572319512",
+            "private_dns_hostname_type_on_launch": "ip-name",
+            "region": "eu-central-1",
+            "tags": {
+              "Name": "spoke-gw-subnet"
+            },
+            "tags_all": {
+              "Name": "spoke-gw-subnet"
+            },
+            "timeouts": null,
+            "vpc_id": "vpc-048797b2556043224"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDAsImRlbGV0ZSI6MTIwMDAwMDAwMDAwMH0sInNjaGVtYV92ZXJzaW9uIjoiMSJ9",
+          "dependencies": [
+            "aws_vpc.aws_spoke_vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_subnet",
+      "name": "aws_transit_subnet",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "arn": "arn:aws:ec2:eu-central-1:234572319512:subnet/subnet-0a2592d056bfd5655",
+            "assign_ipv6_address_on_creation": false,
+            "availability_zone": "eu-central-1a",
+            "availability_zone_id": "euc1-az2",
+            "cidr_block": "192.168.10.0/28",
+            "customer_owned_ipv4_pool": "",
+            "enable_dns64": false,
+            "enable_lni_at_device_index": 0,
+            "enable_resource_name_dns_a_record_on_launch": false,
+            "enable_resource_name_dns_aaaa_record_on_launch": false,
+            "id": "subnet-0a2592d056bfd5655",
+            "ipv6_cidr_block": "",
+            "ipv6_cidr_block_association_id": "",
+            "ipv6_native": false,
+            "map_customer_owned_ip_on_launch": false,
+            "map_public_ip_on_launch": false,
+            "outpost_arn": "",
+            "owner_id": "234572319512",
+            "private_dns_hostname_type_on_launch": "ip-name",
+            "region": "eu-central-1",
+            "tags": {
+              "Name": "aws-transit-subnet"
+            },
+            "tags_all": {
+              "Name": "aws-transit-subnet"
+            },
+            "timeouts": null,
+            "vpc_id": "vpc-0824a489e5813427c"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo2MDAwMDAwMDAwMDAsImRlbGV0ZSI6MTIwMDAwMDAwMDAwMH0sInNjaGVtYV92ZXJzaW9uIjoiMSJ9",
+          "dependencies": [
+            "aws_vpc.aws_transit_vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_vpc",
+      "name": "aws_spoke_vpc",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "arn": "arn:aws:ec2:eu-central-1:234572319512:vpc/vpc-048797b2556043224",
+            "assign_generated_ipv6_cidr_block": false,
+            "cidr_block": "10.100.0.0/16",
+            "default_network_acl_id": "acl-0d3c5c71ecb068239",
+            "default_route_table_id": "rtb-0197e30d03fe8b2f3",
+            "default_security_group_id": "sg-0e4a18a6ecb7ea351",
+            "dhcp_options_id": "dopt-e7eb858d",
+            "enable_dns_hostnames": true,
+            "enable_dns_support": true,
+            "enable_network_address_usage_metrics": false,
+            "id": "vpc-048797b2556043224",
+            "instance_tenancy": "default",
+            "ipv4_ipam_pool_id": null,
+            "ipv4_netmask_length": null,
+            "ipv6_association_id": "",
+            "ipv6_cidr_block": "",
+            "ipv6_cidr_block_network_border_group": "",
+            "ipv6_ipam_pool_id": "",
+            "ipv6_netmask_length": 0,
+            "main_route_table_id": "rtb-0197e30d03fe8b2f3",
+            "owner_id": "234572319512",
+            "region": "eu-central-1",
+            "tags": {
+              "Name": "aws-spoke-vpc"
+            },
+            "tags_all": {
+              "Name": "aws-spoke-vpc"
+            }
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "aws_vpc",
+      "name": "aws_transit_vpc",
+      "provider": "provider[\"registry.terraform.io/hashicorp/aws\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "arn": "arn:aws:ec2:eu-central-1:234572319512:vpc/vpc-0824a489e5813427c",
+            "assign_generated_ipv6_cidr_block": false,
+            "cidr_block": "192.168.10.0/24",
+            "default_network_acl_id": "acl-05051b1f58374cbd7",
+            "default_route_table_id": "rtb-0a7d743d6bda41f80",
+            "default_security_group_id": "sg-03fecb82fa68cb8dc",
+            "dhcp_options_id": "dopt-e7eb858d",
+            "enable_dns_hostnames": true,
+            "enable_dns_support": true,
+            "enable_network_address_usage_metrics": false,
+            "id": "vpc-0824a489e5813427c",
+            "instance_tenancy": "default",
+            "ipv4_ipam_pool_id": null,
+            "ipv4_netmask_length": null,
+            "ipv6_association_id": "",
+            "ipv6_cidr_block": "",
+            "ipv6_cidr_block_network_border_group": "",
+            "ipv6_ipam_pool_id": "",
+            "ipv6_netmask_length": 0,
+            "main_route_table_id": "rtb-0a7d743d6bda41f80",
+            "owner_id": "234572319512",
+            "region": "eu-central-1",
+            "tags": {
+              "Name": "aws-transit-vpc"
+            },
+            "tags_all": {
+              "Name": "aws-transit-vpc"
+            }
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_kubernetes_cluster",
+      "name": "aks_cluster",
+      "provider": "provider[\"registry.terraform.io/hashicorp/azurerm\"]",
+      "instances": [
+        {
+          "schema_version": 2,
+          "attributes": {
+            "aci_connector_linux": [],
+            "api_server_access_profile": [],
+            "auto_scaler_profile": [],
+            "automatic_upgrade_channel": "",
+            "azure_active_directory_role_based_access_control": [],
+            "azure_policy_enabled": null,
+            "confidential_computing": [],
+            "cost_analysis_enabled": false,
+            "current_kubernetes_version": "1.32.5",
+            "custom_ca_trust_certificates_base64": [],
+            "default_node_pool": [
+              {
+                "auto_scaling_enabled": false,
+                "capacity_reservation_group_id": "",
+                "fips_enabled": false,
+                "gpu_instance": "",
+                "host_encryption_enabled": false,
+                "host_group_id": "",
+                "kubelet_config": [],
+                "kubelet_disk_type": "OS",
+                "linux_os_config": [],
+                "max_count": 0,
+                "max_pods": 30,
+                "min_count": 0,
+                "name": "nodepool",
+                "node_count": 2,
+                "node_labels": {},
+                "node_network_profile": [],
+                "node_public_ip_enabled": false,
+                "node_public_ip_prefix_id": "",
+                "only_critical_addons_enabled": false,
+                "orchestrator_version": "1.32",
+                "os_disk_size_gb": 128,
+                "os_disk_type": "Managed",
+                "os_sku": "Ubuntu",
+                "pod_subnet_id": "",
+                "proximity_placement_group_id": "",
+                "scale_down_mode": "Delete",
+                "snapshot_id": "",
+                "tags": {},
+                "temporary_name_for_rotation": "",
+                "type": "VirtualMachineScaleSets",
+                "ultra_ssd_enabled": false,
+                "upgrade_settings": [
+                  {
+                    "drain_timeout_in_minutes": 0,
+                    "max_surge": "10%",
+                    "node_soak_duration_in_minutes": 0
+                  }
+                ],
+                "vm_size": "Standard_DS2_v2",
+                "vnet_subnet_id": "/subscriptions/7b15199c-09ec-4924-9493-d0452969667b/resourceGroups/aviatrix-spoke-rg/providers/Microsoft.Network/virtualNetworks/azure-spoke-vnet/subnets/aks-node-subnet",
+                "workload_runtime": "",
+                "zones": []
+              }
+            ],
+            "disk_encryption_set_id": "",
+            "dns_prefix": "aks",
+            "dns_prefix_private_cluster": "",
+            "edge_zone": "",
+            "fqdn": "aks-gy4eduj9.hcp.westeurope.azmk8s.io",
+            "http_application_routing_enabled": null,
+            "http_application_routing_zone_name": null,
+            "http_proxy_config": [],
+            "id": "/subscriptions/7b15199c-09ec-4924-9493-d0452969667b/resourceGroups/aviatrix-transit-rg/providers/Microsoft.ContainerService/managedClusters/aks-cluster",
+            "identity": [
+              {
+                "identity_ids": [],
+                "principal_id": "772009ff-e904-42b3-ba87-38493d04bf65",
+                "tenant_id": "4780055e-ce37-4f02-b33d-fdad8493a4b6",
+                "type": "SystemAssigned"
+              }
+            ],
+            "image_cleaner_enabled": null,
+            "image_cleaner_interval_hours": null,
+            "ingress_application_gateway": [],
+            "key_management_service": [],
+            "key_vault_secrets_provider": [],
+            "kube_admin_config": [],
+            "kube_admin_config_raw": "",
+            "kube_config": [
+              {
+                "client_certificate": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUZIakNDQXdhZ0F3SUJBZ0lSQUtRVnRTcUVVRjVqVXJlS1hrY3lqU2t3RFFZSktvWklodmNOQVFFTEJRQXcKRFRFTE1Ba0dBMVVFQXhNQ1kyRXdIaGNOTWpVd056RTFNakV6TURNeFdoY05NamN3TnpFMU1qRTBNRE14V2pBdwpNUmN3RlFZRFZRUUtFdzV6ZVhOMFpXMDZiV0Z6ZEdWeWN6RVZNQk1HQTFVRUF4TU1iV0Z6ZEdWeVkyeHBaVzUwCk1JSUNJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBZzhBTUlJQ0NnS0NBZ0VBbExtRGsvNTVYeG5tejRKZFZPYjMKSUVwSjVvRFh5NllWa1IvWCtwa3QvWGhEUnhPVUZDdkVoWldPQlVnRDJIalozbHhNM0I5U2FyOUM2UTlueWw0SgowbG9meDd1Q090L2VSalVoWVJXS1h0UERCMC9RNlA5NHJiaGgrTVlCL3hnbkVCRjJEVCtWbnR3d3FRNkRmNDY0Cm1EMzZvazJXYjFtZmFHT0lKQ0ZiN2FSbGdlalp2RGNTaHFVUW5tMlYvaExCTXFVc2hRc2o5ZCtGZlVva1FKMnQKWjA2cXNNNFE5QXZSelpNVm55TXFZTHZUNXF6U1FONUdCR1RKcXM4aDFwZHJ0eUc5SjJsNUxiM25tMnVTZ2Y3TAorNngybyt2czdjRWc3Q3RVN0djUENoNGFlU3B0NFBNMnp1clcxakxEQXJRUUJlYjYwUXBndmlNNGNUSjdhRG9rCnh0cjZ3UWNyVUMwU0pkelVTN3J0aWZaSlp3bEFrd1VWb21HNzNIazdPaGo3Um8weTd6UEppZ01DRi9pWDZlRlEKVnJhY254ZHJkT29OeVpMellPYStmQklhQ1FRaWxCeEcyTGV1VWRpSEd5Mjd1QkQzdzIzWk1kd09NMCtiVWRnZwo3ZVJzSEdQdlZHZFhMWVIxd1luVUdVYkxqZkJ6VWpPTWE0Z3REa1FzSzlGR3ZJVmlXenk2bjNEczNrMEo0dkZ2ClQrUEEzQ0FseE9WT0o5OUVvZktlL3lZNDc5clRZTmYxMGFQczBtU1RYYjdjT3hHZmtHbDRNbThSM3Yxdm5OTDYKVmx4YkVhbzc5L0s5SXRDSnB4eG9yelFGOE9KdGsrYUhKdUZtRXlaeE5vMGllbFhEVUdmb3ZVSWZwN3cvWi9wVAphVXpmWVc3NzFMcXJNRm1sWHV2QXVta0NBd0VBQWFOV01GUXdEZ1lEVlIwUEFRSC9CQVFEQWdXZ01CTUdBMVVkCkpRUU1NQW9HQ0NzR0FRVUZCd01DTUF3R0ExVWRFd0VCL3dRQ01BQXdId1lEVlIwakJCZ3dGb0FVbVl4R1JSMy8KZUtHMUxzY2JKeGg5WTRiQldQNHdEUVlKS29aSWh2Y05BUUVMQlFBRGdnSUJBSUZiVkVpTjBDaTFvVmRkOWtFUQo5TXg1Z1pUdnBSWjRLdlQ0dlBOSFpaYzM0NFJ6OHBjUTNsS1lnYzN5SUJEcldpa1NQV2ZPdE5SRGh5N0RDMDNsCkxPSVppcHUybGVRUmxxT2NLajAyNVBka0dwZlIvWEI2VlJtV1h0c2U3R2RUYURZMnhNV3E5M2FidXc3cklJTEcKU3NUalZUVDVQaXZHdlFkcUJibnV1K0l0Q0Vld2Y4NUNvb3BtdlprUWNXNFc2NUdPWS9wekx2RVdGVm93bFdJNApCc0c2U0ZJbHZRa3RCbnk5UWpMSWk0T2NTZnhERFB5OThKN3FXQVJ5eElJcHdiNjFSdzdNa2VSQzNjdThIdkc1Cjlzc1AyOTlyR3VvZm9SWitCbWpuR0JWY1E1NmtHS1NCRCtPczFaR05lb0x2RHJLNFdmZ3pab0k5dlpZd3pnbXAKMDRyNlRwNldsa01QT3k4bm1OTUV6YStNZk9vRjdkbnhzTFg0YzVidlhsd3RuT0VsZVdUZDVhdVpXdTAyN0pmaApMWTc2VVNRV2QzRTdRYnhBQWt0NWVUL0h2dDAySFRERUFDYUVvS0pISC83bUN3Q1UvSklsSTJ2UTFVT1F1akhmCmNkb1MzWm9EbXl4anBJUWFQTmU5NFA1RjlyaHFoTUh3OHlpYy9TT25PRVphcmlZVGNaMUp1czBqYWNCREpKNUkKd1Y0Q251SVRmVEhNUHhSN05tQTQwSmtaWGxVc2N1NGJuanVYWWlZU2MwSGoxSkd2QnplTTFjOUFOUjkzeVIrbApBQ1NLZmxoUFIyTnJrNTlnRnhGbjFWa2hua28vQm5NZHBqTlk3M2pGOHl6cXJZUFFCSWF0WmsreFl2MVFWa0JNCm02RnN2VnlKcW4wNTgxKy84YjRhdklYdgotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==",
+                "client_key": "LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlKS0FJQkFBS0NBZ0VBbExtRGsvNTVYeG5tejRKZFZPYjNJRXBKNW9EWHk2WVZrUi9YK3BrdC9YaERSeE9VCkZDdkVoWldPQlVnRDJIalozbHhNM0I5U2FyOUM2UTlueWw0SjBsb2Z4N3VDT3QvZVJqVWhZUldLWHRQREIwL1EKNlA5NHJiaGgrTVlCL3hnbkVCRjJEVCtWbnR3d3FRNkRmNDY0bUQzNm9rMldiMW1mYUdPSUpDRmI3YVJsZ2VqWgp2RGNTaHFVUW5tMlYvaExCTXFVc2hRc2o5ZCtGZlVva1FKMnRaMDZxc000UTlBdlJ6Wk1WbnlNcVlMdlQ1cXpTClFONUdCR1RKcXM4aDFwZHJ0eUc5SjJsNUxiM25tMnVTZ2Y3TCs2eDJvK3ZzN2NFZzdDdFU3R2NQQ2g0YWVTcHQKNFBNMnp1clcxakxEQXJRUUJlYjYwUXBndmlNNGNUSjdhRG9reHRyNndRY3JVQzBTSmR6VVM3cnRpZlpKWndsQQprd1VWb21HNzNIazdPaGo3Um8weTd6UEppZ01DRi9pWDZlRlFWcmFjbnhkcmRPb055Wkx6WU9hK2ZCSWFDUVFpCmxCeEcyTGV1VWRpSEd5Mjd1QkQzdzIzWk1kd09NMCtiVWRnZzdlUnNIR1B2VkdkWExZUjF3WW5VR1ViTGpmQnoKVWpPTWE0Z3REa1FzSzlGR3ZJVmlXenk2bjNEczNrMEo0dkZ2VCtQQTNDQWx4T1ZPSjk5RW9mS2UveVk0NzlyVApZTmYxMGFQczBtU1RYYjdjT3hHZmtHbDRNbThSM3Yxdm5OTDZWbHhiRWFvNzkvSzlJdENKcHh4b3J6UUY4T0p0CmsrYUhKdUZtRXlaeE5vMGllbFhEVUdmb3ZVSWZwN3cvWi9wVGFVemZZVzc3MUxxck1GbWxYdXZBdW1rQ0F3RUEKQVFLQ0FnQjI1R0w2WVZsWG5GWTJsd25UZ0p3WVZTc0V1UVZLQ09oK3pvMFRDWGVKaEtXTDRXdmtRQ1RuZ1dvNgpjSnFhWitvTFo1QU4vSUFmVSt6Q2NZMVFhcUxCWlVpNG0vNTg0RkJKb2RtZ1NkOEc5WlNZZU1jU0xJQ2xwNXV5CmkyQTNOSEN0MkxlZDJiSGJnRHpxT084SWZ1aTAwLzlUMW1DbmZXY0F4V2lsTVlIUzFUUk1pUC9mQmN1cWxiUlcKWWxhZytRODNWSEhsbmNWT25qU1J0ejZKNVVNbExlOG9UbU9oSlAzQXNJOTlXMWhhWW0wQW9ER29wOGdqWlFzTwpvRzExcGpEM0FtSzdhZ2IwZVRiNHVTTXpCcVM4K2Q4U0pkMlBKM0FSUElhMFFhTDFQS0YvTVZzTGxJTEJJVjFECmVPc0tjelhIOGlHYUVRakxsMDVjdDdXTjJjVmhkdFpXRGgvSFVtbSszUUZ4cXFhWWdSUFkrenA4d0Z4T2RDQ2gKeWp6WTRtVHpqTFErSG9sak9oU1ZzUzQ2aHJaQTAzb0diTXJLQmV4eGNCc1RyYUduaUtONitGaENFcWdFZ1h6UwpPUko5bENpS0wzTFUrZVdXaDFxNmVhWmZzL2I5YzlXcUc4S29sRy9VS0FwZDBjVEFINUQ0WFNhZHhYMmQ2K0hoCnYzRC9vRkE5N256SFRJdnZFeU03Sjd5VzBZRnMxL2sxMW83RWlibjAybDFZQVQzWGtUMDNKbmpmUUNwRTIwUHcKREdIQnFYRHBkczQ5UzQ4djJTcG4zWUdoRjlPclRaNS9MMCtNVjRQYTVRbXd2YzJLWk9sdlJJd0hvNnZDcC84YQpVUG1jc3BLM1FjYVg4ZlRIZnpBSGpQeDVST0REQ3FNTmwvbmVwWitzd1JiSlVURHZUUUtDQVFFQXhkT3lHNWNBCmFFTnY3VE5zNERic1JrM2JXWUNmU1MrVUZZTWJZTzI2Q3lBMmJPeDV4bjZSK0trOW94RWtxODhMYXc1OERRZ24KWnhrRXBjekRwdHFSSGh3Q2NNb3NvY2IwdmtzZXduTzhac1p2VG1sZ2dlRzh3WnV5NFFyMG5YNTVBeW5XY3dEdAovRWE3ck5oaUNFT2xaTWxEbUcxMVpVcjhzeVlMWlU5TVJkRXFLVTE3RHpES013WnBKTk1iT2gvMGF6TWczUnQ4CkcvTkhZVmhwcVFDenBXL0dldHhaSjFvYUVTb3BGaUJ5SkprNXNwSmlpWTEwc1FoVlo3OENJZ1ZLVWRqWm01ancKcXRIMG9YeDYxcTRYR1BnODBSUWNDTktJWllVMHNPdzk5dzVqL3ZaRC9WcU5qYVduckI2dDlield6a2d5OVh4dwpteXZ3RFY0ZExHajd0d0tDQVFFQXdIVnRCTjh3Qi9YRlRNWnRzaldQN0puTFVpWlhLREI0ZzhpbkFlYVJwMDFYCkNjdFJxM2dQcUo4TkV5OWY4ZU9YQTk1WGQ0cnVqb29UQ0NGelVRUHBwdUxHeVFwSGlYWUo5QVFNb3R5Mm9CeDMKVCttMGZ0eWRYZk5qcndqenk0QlVEeXVaMCtJVWVCSFZtM0VkQXg5bkp3Tm80MEpXRUlDc3ZWUmlIUW1xZWtaUQpsTWR6NTZYa1pOdUVCWDl4THZoamU0aTIwa0syRk9qMFBhcWRONFBsSG9tTXBhMmVmS1Q2QVZxVXREODBBS0N1Cmg1MUpXTDB3VXo3Q1hvZk9LV01TYjVRZm0xMVdHaU04QkgwVjlENHpwbkpsTFkvTnFXbzMxN3pmN0xGT2JiRGQKdlAxWXJmRzRBbXo2dktBSXNpdVNXSkNMZGgrd2JqYmd0NjZua3VvNjN3S0NBUUVBbC9zc2NVL1FDMG9MK2pLdwo2WXlvZHRhbnR4byt4VzRkR1czUkllVmhNZHo4a3pBVjJpNHhITldBdWYrWXFibjE3cmlCQzA0Qlg0NXo2S0RvCml3Nk53SkVLT3ZiSDFUM1JsMFNGRENUNFVBa1JTQzlpNmtXdnl4cEFFZTVsd1gyQm9MR0t4RzJwYUZBN0xPNU0KV2tjR0VPa2kyajcxbXUxQ09LdjR3MHRwc0pXaUMzc3dHSnFHTFM4MnBnamRlUWxGc1BubHZKaTUvNHNtZ3AzMwpCdFM0TDFneEp3Q1VLY3hxREZmVW11QXdjUGVhd1JyL1F1Zi9CMmI4bmlpN2pjRjh1R2FkdjVGL0MrMGpRTkV1CldqSURJcmJMbW1FVnJKMTZGbXlBNzQ5L2g0ZHh3VllYSTlSbXZiVFBuVWN3cElNQWtCZ2R0a1YxQ1hGM0NmNE0KOGFweC93S0NBUUFjZ2toLzdEL0ZMaGJuNUl6alZTUFl2SDl0ejlnaFQrektPTExraVM4U1JWYWJVTTdzUTRDdQpUY0UyRWxKNEZtcU1YQ2RBd2dmTWZZK01LTWhZTytna25Ic3QxS1A4TE13VXBYVHB1eUFpWDVVYzlWV1RaVUs2ClpBOWtJa05hNWN1TjQ3dUpzM2Vzd1plT3l4YXRHNzIvL2JWUDFNZkM4Z3lranhkcGpjRC9FK05qNXBlNHZNNDAKVW9BZ0FGelh4RnVZTlF3LzRUbnZwd0puRUJyeDJrdmFWaTNMYlFpSkZqY2lkRFNLN3NIWlJmUVVpcXdPeFJlZgpmVEIxcUZCVnVTTkYrLzhpbUpUa2trdVZycUhONkZqbVV4UEJ5QWVERFFUd3BEM1haZnhrSzBydGIrbnUrbHR6Cm9Ja1QzL0RwMDZKK0ZBdFVtQ1VlYm1xalN1L3Z4MXFwQW9JQkFCa3F0M1ZNSi9iazBkcjB6VzRVUmp5ODFxa3IKbCtJQWNaVHFqZ2ZHYUFmVXkrd2Yyc3VaUjFkZGhtT3E5ZFBtdUttRXNZdm00dm5DaTk3OVRJemlpS2RQOGQyQgpZU0ZsdXh1MVVvS1NsQ3RkZ3p2Y3ZNUEFHbDhqSHMrOGk0aWlHbzhSM3ltY1Y5RUdsZUhJRFdGQlpoMmR3bkpaClFGcGxXdEN4U0duS21Ba1pVOU1ybUlRemZ5Mlpzc3JmY1Q4SUgxTWVzVDZZOEx2cyttdXVLUkVqemRTUllUOVoKK3BXNUtUcXFVcVk3TldsNWRRTExnWWlDMDE2WExMQUovQlB3T24ySTloRnNlRHpLSnFGQk13VFY1Vnk2d1BQYQpyS3N3VXBScWp3ZkNCdVdJSnJwQ1NDdjQ5YkhUdVlZakY4Tld6R2xFdFNTaHpaamZybUdpS29iWFp4VT0KLS0tLS1FTkQgUlNBIFBSSVZBVEUgS0VZLS0tLS0K",
+                "cluster_ca_certificate": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUU2RENDQXRDZ0F3SUJBZ0lRYmtZSDJwcVJ3VFlsa2gzMXU1VUJRekFOQmdrcWhraUc5dzBCQVFzRkFEQU4KTVFzd0NRWURWUVFERXdKallUQWdGdzB5TlRBM01UVXlNVE13TXpGYUdBOHlNRFUxTURjeE5USXhOREF6TVZvdwpEVEVMTUFrR0ExVUVBeE1DWTJFd2dnSWlNQTBHQ1NxR1NJYjNEUUVCQVFVQUE0SUNEd0F3Z2dJS0FvSUNBUURnCi9Cd0ZGRGVnejEvd285QUdrZnF5d3BtbGVKb3hXQnoyakhwTDY4Zm9KS3gwU3RsR1QyQTVvemZnNG5ZZkUrbUUKbWJrYWpDakM3L2JOdnNJV0trNWprbDllUHRDMnp6bjFvSnNzcStCYlloSjJjdDRGMkZ1L0dZS011TVVmYVZEMgpTemFVOFNiVENKUTRIdWNWMzlnSTVPazRhdmJwV0ZHQldIRnMzRkg4RzU2ZjFzcGNzYmlKcnBaN0VpTkNtbUVpCmk4NkoveXhlNmtNVm1KRkY5VzdTbTVxWXpZeDdXd0lCV3pOdmtyU21YV1RabS9TZ3BIZk9VZW9xcFVOTEtNaDAKLzdYMW9JOExjM0oyUFRXUDhrZEFwbnFFTUc3dG8rcHo3ZkN5UUkvdXdENVpPK2NjOTdUV1hjM3hwY2p4bUQ1eApMTW9xSkhxOHhHaEVpa0w4SmpQU3lhV3B0bXd0SVFGY01BbWRaRGc5U1JXVWpFeXAyK2wrVHN6dFFyVEN3cEZwCndqUDZCdXZ5QWdRdzV4NDFUdUVKbCtBenYrYXhFSmF2Y1NqcEdaZjNOUHNXaGp6TTJNaFBEam94d3B4c3kyRVcKeW9ucGFSUVUrUDVPWklkNjRoUXNiMENGQ0RENVd6RUU3WU9OeFZqRExLbCtEQVhrUi9QODlGc1JLdVN6b0RyMgpud0trMjdQMDloOUFVcGNBRUx4TUVqdXZWT2l5bW10bGFhUGlIZmlsM0lqTDAwMXYwcWszVnErMWFnTFFRbURxCnlJTFZKSWxyeTlPUFhwSko2SEFOMk1sNGtpd1NYS3BLV200WnBQbXRJeFIwNXVlbkhEdjg4V2lOVTJsU2JxS2QKbXBQQ2RFNkhSOXR4NUoweHFORkQzUVJTQnJJNkRWUnR1U0NEZzdCTnNRSURBUUFCbzBJd1FEQU9CZ05WSFE4QgpBZjhFQkFNQ0FxUXdEd1lEVlIwVEFRSC9CQVV3QXdFQi96QWRCZ05WSFE0RUZnUVVtWXhHUlIzL2VLRzFMc2NiCkp4aDlZNGJCV1A0d0RRWUpLb1pJaHZjTkFRRUxCUUFEZ2dJQkFKV0NPbnEvbGJKUUdWSUorS2pac1pVNVlON1gKRERrVmVxb3k2TjdONzNOVzUvbnJsYTJ1RUpacnU5V09aeTdMUFdiL2xtdHhUTmp2STFRN0laSG9OdERNeW1nMgpUR2lDcVVGUmVISFA4K2FVQWk3dWFHeE1CaGxhQlFrM1R5dThLTGI0UGdUUHVlamlJZ20yTXZYZ3BKTHoxbkNPClRkYm9wQXRXSy9RWHpBaHhSSGVPR016bS9idU1hVWtON2JPbXFCRTR2THlwbkZSeXRra01HMW1GYldkbE5mSm4KbWExVkpObFdxSDRCTGF4Z0RjLzRTc2hWbWticzgvSDNZM3FWNXphYlEvdlArcFV2THd2UldrblI3eGIxVy9MMwpMaTVidDUwbVloV2V2TGR3NC8zcml2aEhTVkt3amV2NzIzeVRGcTBtSUdmR00zYWRYMXl5d2llVS8rZDhuOC9TCnZrSXMvS2ZvOURlOCtOc1c3TVU0VHlYUE1PZUp3WkdPdm03c1hKUXpPTEMyZGRYcHE0Tjl5TUZHMVovOFlpOWgKRVpub0Mrdm0wRmRLSUNjMEZpRzhzdHBCNUJvVTFjOXBaNGVIc2NXUVR6cjlsQWhSS0dEL2V5Y1ZzaHhNYkd1KwpwT3gweFZTMGUzd2g5UzNqem1mWXRZRXExQkZsVWQ0OEFWYjkwYmVxeVlIam04aEFmUGFIWnA4eGl3a2pvbEpoCjJWZklaK1NIYVlGN3lTV1VQSTVxUHZReXNLV29uU25DdTFMcG5Kbmc1OEg5U2FwY3RLR0JDOVBxcCsrdEZrZ0gKc0RmUjNRdHc5NzNVRnR2WWxnaW0rZ1VpZzFpYzk4eFNNUEJ1MjBUNjdSMVh6c2w1Q3lhM0h2TWdkV0VtSUd3QgppS3dkcmpvakRRQnRHQXJmCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K",
+                "host": "https://aks-gy4eduj9.hcp.westeurope.azmk8s.io:443",
+                "password": "jr9su4eye96yljn3po084glgq5k19oibrl1msrbsxz09sfiv1cri95zrg0qmwth84gq5nxptgv300i2vlqlkq38k9l99vwoh09wa1kxyj8xurnue508t1nwpx2zg6z74",
+                "username": "clusterUser_aviatrix-transit-rg_aks-cluster"
+              }
+            ],
+            "kube_config_raw": "apiVersion: v1\nclusters:\n- cluster:\n    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUU2RENDQXRDZ0F3SUJBZ0lRYmtZSDJwcVJ3VFlsa2gzMXU1VUJRekFOQmdrcWhraUc5dzBCQVFzRkFEQU4KTVFzd0NRWURWUVFERXdKallUQWdGdzB5TlRBM01UVXlNVE13TXpGYUdBOHlNRFUxTURjeE5USXhOREF6TVZvdwpEVEVMTUFrR0ExVUVBeE1DWTJFd2dnSWlNQTBHQ1NxR1NJYjNEUUVCQVFVQUE0SUNEd0F3Z2dJS0FvSUNBUURnCi9Cd0ZGRGVnejEvd285QUdrZnF5d3BtbGVKb3hXQnoyakhwTDY4Zm9KS3gwU3RsR1QyQTVvemZnNG5ZZkUrbUUKbWJrYWpDakM3L2JOdnNJV0trNWprbDllUHRDMnp6bjFvSnNzcStCYlloSjJjdDRGMkZ1L0dZS011TVVmYVZEMgpTemFVOFNiVENKUTRIdWNWMzlnSTVPazRhdmJwV0ZHQldIRnMzRkg4RzU2ZjFzcGNzYmlKcnBaN0VpTkNtbUVpCmk4NkoveXhlNmtNVm1KRkY5VzdTbTVxWXpZeDdXd0lCV3pOdmtyU21YV1RabS9TZ3BIZk9VZW9xcFVOTEtNaDAKLzdYMW9JOExjM0oyUFRXUDhrZEFwbnFFTUc3dG8rcHo3ZkN5UUkvdXdENVpPK2NjOTdUV1hjM3hwY2p4bUQ1eApMTW9xSkhxOHhHaEVpa0w4SmpQU3lhV3B0bXd0SVFGY01BbWRaRGc5U1JXVWpFeXAyK2wrVHN6dFFyVEN3cEZwCndqUDZCdXZ5QWdRdzV4NDFUdUVKbCtBenYrYXhFSmF2Y1NqcEdaZjNOUHNXaGp6TTJNaFBEam94d3B4c3kyRVcKeW9ucGFSUVUrUDVPWklkNjRoUXNiMENGQ0RENVd6RUU3WU9OeFZqRExLbCtEQVhrUi9QODlGc1JLdVN6b0RyMgpud0trMjdQMDloOUFVcGNBRUx4TUVqdXZWT2l5bW10bGFhUGlIZmlsM0lqTDAwMXYwcWszVnErMWFnTFFRbURxCnlJTFZKSWxyeTlPUFhwSko2SEFOMk1sNGtpd1NYS3BLV200WnBQbXRJeFIwNXVlbkhEdjg4V2lOVTJsU2JxS2QKbXBQQ2RFNkhSOXR4NUoweHFORkQzUVJTQnJJNkRWUnR1U0NEZzdCTnNRSURBUUFCbzBJd1FEQU9CZ05WSFE4QgpBZjhFQkFNQ0FxUXdEd1lEVlIwVEFRSC9CQVV3QXdFQi96QWRCZ05WSFE0RUZnUVVtWXhHUlIzL2VLRzFMc2NiCkp4aDlZNGJCV1A0d0RRWUpLb1pJaHZjTkFRRUxCUUFEZ2dJQkFKV0NPbnEvbGJKUUdWSUorS2pac1pVNVlON1gKRERrVmVxb3k2TjdONzNOVzUvbnJsYTJ1RUpacnU5V09aeTdMUFdiL2xtdHhUTmp2STFRN0laSG9OdERNeW1nMgpUR2lDcVVGUmVISFA4K2FVQWk3dWFHeE1CaGxhQlFrM1R5dThLTGI0UGdUUHVlamlJZ20yTXZYZ3BKTHoxbkNPClRkYm9wQXRXSy9RWHpBaHhSSGVPR016bS9idU1hVWtON2JPbXFCRTR2THlwbkZSeXRra01HMW1GYldkbE5mSm4KbWExVkpObFdxSDRCTGF4Z0RjLzRTc2hWbWticzgvSDNZM3FWNXphYlEvdlArcFV2THd2UldrblI3eGIxVy9MMwpMaTVidDUwbVloV2V2TGR3NC8zcml2aEhTVkt3amV2NzIzeVRGcTBtSUdmR00zYWRYMXl5d2llVS8rZDhuOC9TCnZrSXMvS2ZvOURlOCtOc1c3TVU0VHlYUE1PZUp3WkdPdm03c1hKUXpPTEMyZGRYcHE0Tjl5TUZHMVovOFlpOWgKRVpub0Mrdm0wRmRLSUNjMEZpRzhzdHBCNUJvVTFjOXBaNGVIc2NXUVR6cjlsQWhSS0dEL2V5Y1ZzaHhNYkd1KwpwT3gweFZTMGUzd2g5UzNqem1mWXRZRXExQkZsVWQ0OEFWYjkwYmVxeVlIam04aEFmUGFIWnA4eGl3a2pvbEpoCjJWZklaK1NIYVlGN3lTV1VQSTVxUHZReXNLV29uU25DdTFMcG5Kbmc1OEg5U2FwY3RLR0JDOVBxcCsrdEZrZ0gKc0RmUjNRdHc5NzNVRnR2WWxnaW0rZ1VpZzFpYzk4eFNNUEJ1MjBUNjdSMVh6c2w1Q3lhM0h2TWdkV0VtSUd3QgppS3dkcmpvakRRQnRHQXJmCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    server: https://aks-gy4eduj9.hcp.westeurope.azmk8s.io:443\n  name: aks-cluster\ncontexts:\n- context:\n    cluster: aks-cluster\n    user: clusterUser_aviatrix-transit-rg_aks-cluster\n  name: aks-cluster\ncurrent-context: aks-cluster\nkind: Config\npreferences: {}\nusers:\n- name: clusterUser_aviatrix-transit-rg_aks-cluster\n  user:\n    client-certificate-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUZIakNDQXdhZ0F3SUJBZ0lSQUtRVnRTcUVVRjVqVXJlS1hrY3lqU2t3RFFZSktvWklodmNOQVFFTEJRQXcKRFRFTE1Ba0dBMVVFQXhNQ1kyRXdIaGNOTWpVd056RTFNakV6TURNeFdoY05NamN3TnpFMU1qRTBNRE14V2pBdwpNUmN3RlFZRFZRUUtFdzV6ZVhOMFpXMDZiV0Z6ZEdWeWN6RVZNQk1HQTFVRUF4TU1iV0Z6ZEdWeVkyeHBaVzUwCk1JSUNJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBZzhBTUlJQ0NnS0NBZ0VBbExtRGsvNTVYeG5tejRKZFZPYjMKSUVwSjVvRFh5NllWa1IvWCtwa3QvWGhEUnhPVUZDdkVoWldPQlVnRDJIalozbHhNM0I5U2FyOUM2UTlueWw0SgowbG9meDd1Q090L2VSalVoWVJXS1h0UERCMC9RNlA5NHJiaGgrTVlCL3hnbkVCRjJEVCtWbnR3d3FRNkRmNDY0Cm1EMzZvazJXYjFtZmFHT0lKQ0ZiN2FSbGdlalp2RGNTaHFVUW5tMlYvaExCTXFVc2hRc2o5ZCtGZlVva1FKMnQKWjA2cXNNNFE5QXZSelpNVm55TXFZTHZUNXF6U1FONUdCR1RKcXM4aDFwZHJ0eUc5SjJsNUxiM25tMnVTZ2Y3TAorNngybyt2czdjRWc3Q3RVN0djUENoNGFlU3B0NFBNMnp1clcxakxEQXJRUUJlYjYwUXBndmlNNGNUSjdhRG9rCnh0cjZ3UWNyVUMwU0pkelVTN3J0aWZaSlp3bEFrd1VWb21HNzNIazdPaGo3Um8weTd6UEppZ01DRi9pWDZlRlEKVnJhY254ZHJkT29OeVpMellPYStmQklhQ1FRaWxCeEcyTGV1VWRpSEd5Mjd1QkQzdzIzWk1kd09NMCtiVWRnZwo3ZVJzSEdQdlZHZFhMWVIxd1luVUdVYkxqZkJ6VWpPTWE0Z3REa1FzSzlGR3ZJVmlXenk2bjNEczNrMEo0dkZ2ClQrUEEzQ0FseE9WT0o5OUVvZktlL3lZNDc5clRZTmYxMGFQczBtU1RYYjdjT3hHZmtHbDRNbThSM3Yxdm5OTDYKVmx4YkVhbzc5L0s5SXRDSnB4eG9yelFGOE9KdGsrYUhKdUZtRXlaeE5vMGllbFhEVUdmb3ZVSWZwN3cvWi9wVAphVXpmWVc3NzFMcXJNRm1sWHV2QXVta0NBd0VBQWFOV01GUXdEZ1lEVlIwUEFRSC9CQVFEQWdXZ01CTUdBMVVkCkpRUU1NQW9HQ0NzR0FRVUZCd01DTUF3R0ExVWRFd0VCL3dRQ01BQXdId1lEVlIwakJCZ3dGb0FVbVl4R1JSMy8KZUtHMUxzY2JKeGg5WTRiQldQNHdEUVlKS29aSWh2Y05BUUVMQlFBRGdnSUJBSUZiVkVpTjBDaTFvVmRkOWtFUQo5TXg1Z1pUdnBSWjRLdlQ0dlBOSFpaYzM0NFJ6OHBjUTNsS1lnYzN5SUJEcldpa1NQV2ZPdE5SRGh5N0RDMDNsCkxPSVppcHUybGVRUmxxT2NLajAyNVBka0dwZlIvWEI2VlJtV1h0c2U3R2RUYURZMnhNV3E5M2FidXc3cklJTEcKU3NUalZUVDVQaXZHdlFkcUJibnV1K0l0Q0Vld2Y4NUNvb3BtdlprUWNXNFc2NUdPWS9wekx2RVdGVm93bFdJNApCc0c2U0ZJbHZRa3RCbnk5UWpMSWk0T2NTZnhERFB5OThKN3FXQVJ5eElJcHdiNjFSdzdNa2VSQzNjdThIdkc1Cjlzc1AyOTlyR3VvZm9SWitCbWpuR0JWY1E1NmtHS1NCRCtPczFaR05lb0x2RHJLNFdmZ3pab0k5dlpZd3pnbXAKMDRyNlRwNldsa01QT3k4bm1OTUV6YStNZk9vRjdkbnhzTFg0YzVidlhsd3RuT0VsZVdUZDVhdVpXdTAyN0pmaApMWTc2VVNRV2QzRTdRYnhBQWt0NWVUL0h2dDAySFRERUFDYUVvS0pISC83bUN3Q1UvSklsSTJ2UTFVT1F1akhmCmNkb1MzWm9EbXl4anBJUWFQTmU5NFA1RjlyaHFoTUh3OHlpYy9TT25PRVphcmlZVGNaMUp1czBqYWNCREpKNUkKd1Y0Q251SVRmVEhNUHhSN05tQTQwSmtaWGxVc2N1NGJuanVYWWlZU2MwSGoxSkd2QnplTTFjOUFOUjkzeVIrbApBQ1NLZmxoUFIyTnJrNTlnRnhGbjFWa2hua28vQm5NZHBqTlk3M2pGOHl6cXJZUFFCSWF0WmsreFl2MVFWa0JNCm02RnN2VnlKcW4wNTgxKy84YjRhdklYdgotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==\n    client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlKS0FJQkFBS0NBZ0VBbExtRGsvNTVYeG5tejRKZFZPYjNJRXBKNW9EWHk2WVZrUi9YK3BrdC9YaERSeE9VCkZDdkVoWldPQlVnRDJIalozbHhNM0I5U2FyOUM2UTlueWw0SjBsb2Z4N3VDT3QvZVJqVWhZUldLWHRQREIwL1EKNlA5NHJiaGgrTVlCL3hnbkVCRjJEVCtWbnR3d3FRNkRmNDY0bUQzNm9rMldiMW1mYUdPSUpDRmI3YVJsZ2VqWgp2RGNTaHFVUW5tMlYvaExCTXFVc2hRc2o5ZCtGZlVva1FKMnRaMDZxc000UTlBdlJ6Wk1WbnlNcVlMdlQ1cXpTClFONUdCR1RKcXM4aDFwZHJ0eUc5SjJsNUxiM25tMnVTZ2Y3TCs2eDJvK3ZzN2NFZzdDdFU3R2NQQ2g0YWVTcHQKNFBNMnp1clcxakxEQXJRUUJlYjYwUXBndmlNNGNUSjdhRG9reHRyNndRY3JVQzBTSmR6VVM3cnRpZlpKWndsQQprd1VWb21HNzNIazdPaGo3Um8weTd6UEppZ01DRi9pWDZlRlFWcmFjbnhkcmRPb055Wkx6WU9hK2ZCSWFDUVFpCmxCeEcyTGV1VWRpSEd5Mjd1QkQzdzIzWk1kd09NMCtiVWRnZzdlUnNIR1B2VkdkWExZUjF3WW5VR1ViTGpmQnoKVWpPTWE0Z3REa1FzSzlGR3ZJVmlXenk2bjNEczNrMEo0dkZ2VCtQQTNDQWx4T1ZPSjk5RW9mS2UveVk0NzlyVApZTmYxMGFQczBtU1RYYjdjT3hHZmtHbDRNbThSM3Yxdm5OTDZWbHhiRWFvNzkvSzlJdENKcHh4b3J6UUY4T0p0CmsrYUhKdUZtRXlaeE5vMGllbFhEVUdmb3ZVSWZwN3cvWi9wVGFVemZZVzc3MUxxck1GbWxYdXZBdW1rQ0F3RUEKQVFLQ0FnQjI1R0w2WVZsWG5GWTJsd25UZ0p3WVZTc0V1UVZLQ09oK3pvMFRDWGVKaEtXTDRXdmtRQ1RuZ1dvNgpjSnFhWitvTFo1QU4vSUFmVSt6Q2NZMVFhcUxCWlVpNG0vNTg0RkJKb2RtZ1NkOEc5WlNZZU1jU0xJQ2xwNXV5CmkyQTNOSEN0MkxlZDJiSGJnRHpxT084SWZ1aTAwLzlUMW1DbmZXY0F4V2lsTVlIUzFUUk1pUC9mQmN1cWxiUlcKWWxhZytRODNWSEhsbmNWT25qU1J0ejZKNVVNbExlOG9UbU9oSlAzQXNJOTlXMWhhWW0wQW9ER29wOGdqWlFzTwpvRzExcGpEM0FtSzdhZ2IwZVRiNHVTTXpCcVM4K2Q4U0pkMlBKM0FSUElhMFFhTDFQS0YvTVZzTGxJTEJJVjFECmVPc0tjelhIOGlHYUVRakxsMDVjdDdXTjJjVmhkdFpXRGgvSFVtbSszUUZ4cXFhWWdSUFkrenA4d0Z4T2RDQ2gKeWp6WTRtVHpqTFErSG9sak9oU1ZzUzQ2aHJaQTAzb0diTXJLQmV4eGNCc1RyYUduaUtONitGaENFcWdFZ1h6UwpPUko5bENpS0wzTFUrZVdXaDFxNmVhWmZzL2I5YzlXcUc4S29sRy9VS0FwZDBjVEFINUQ0WFNhZHhYMmQ2K0hoCnYzRC9vRkE5N256SFRJdnZFeU03Sjd5VzBZRnMxL2sxMW83RWlibjAybDFZQVQzWGtUMDNKbmpmUUNwRTIwUHcKREdIQnFYRHBkczQ5UzQ4djJTcG4zWUdoRjlPclRaNS9MMCtNVjRQYTVRbXd2YzJLWk9sdlJJd0hvNnZDcC84YQpVUG1jc3BLM1FjYVg4ZlRIZnpBSGpQeDVST0REQ3FNTmwvbmVwWitzd1JiSlVURHZUUUtDQVFFQXhkT3lHNWNBCmFFTnY3VE5zNERic1JrM2JXWUNmU1MrVUZZTWJZTzI2Q3lBMmJPeDV4bjZSK0trOW94RWtxODhMYXc1OERRZ24KWnhrRXBjekRwdHFSSGh3Q2NNb3NvY2IwdmtzZXduTzhac1p2VG1sZ2dlRzh3WnV5NFFyMG5YNTVBeW5XY3dEdAovRWE3ck5oaUNFT2xaTWxEbUcxMVpVcjhzeVlMWlU5TVJkRXFLVTE3RHpES013WnBKTk1iT2gvMGF6TWczUnQ4CkcvTkhZVmhwcVFDenBXL0dldHhaSjFvYUVTb3BGaUJ5SkprNXNwSmlpWTEwc1FoVlo3OENJZ1ZLVWRqWm01ancKcXRIMG9YeDYxcTRYR1BnODBSUWNDTktJWllVMHNPdzk5dzVqL3ZaRC9WcU5qYVduckI2dDlield6a2d5OVh4dwpteXZ3RFY0ZExHajd0d0tDQVFFQXdIVnRCTjh3Qi9YRlRNWnRzaldQN0puTFVpWlhLREI0ZzhpbkFlYVJwMDFYCkNjdFJxM2dQcUo4TkV5OWY4ZU9YQTk1WGQ0cnVqb29UQ0NGelVRUHBwdUxHeVFwSGlYWUo5QVFNb3R5Mm9CeDMKVCttMGZ0eWRYZk5qcndqenk0QlVEeXVaMCtJVWVCSFZtM0VkQXg5bkp3Tm80MEpXRUlDc3ZWUmlIUW1xZWtaUQpsTWR6NTZYa1pOdUVCWDl4THZoamU0aTIwa0syRk9qMFBhcWRONFBsSG9tTXBhMmVmS1Q2QVZxVXREODBBS0N1Cmg1MUpXTDB3VXo3Q1hvZk9LV01TYjVRZm0xMVdHaU04QkgwVjlENHpwbkpsTFkvTnFXbzMxN3pmN0xGT2JiRGQKdlAxWXJmRzRBbXo2dktBSXNpdVNXSkNMZGgrd2JqYmd0NjZua3VvNjN3S0NBUUVBbC9zc2NVL1FDMG9MK2pLdwo2WXlvZHRhbnR4byt4VzRkR1czUkllVmhNZHo4a3pBVjJpNHhITldBdWYrWXFibjE3cmlCQzA0Qlg0NXo2S0RvCml3Nk53SkVLT3ZiSDFUM1JsMFNGRENUNFVBa1JTQzlpNmtXdnl4cEFFZTVsd1gyQm9MR0t4RzJwYUZBN0xPNU0KV2tjR0VPa2kyajcxbXUxQ09LdjR3MHRwc0pXaUMzc3dHSnFHTFM4MnBnamRlUWxGc1BubHZKaTUvNHNtZ3AzMwpCdFM0TDFneEp3Q1VLY3hxREZmVW11QXdjUGVhd1JyL1F1Zi9CMmI4bmlpN2pjRjh1R2FkdjVGL0MrMGpRTkV1CldqSURJcmJMbW1FVnJKMTZGbXlBNzQ5L2g0ZHh3VllYSTlSbXZiVFBuVWN3cElNQWtCZ2R0a1YxQ1hGM0NmNE0KOGFweC93S0NBUUFjZ2toLzdEL0ZMaGJuNUl6alZTUFl2SDl0ejlnaFQrektPTExraVM4U1JWYWJVTTdzUTRDdQpUY0UyRWxKNEZtcU1YQ2RBd2dmTWZZK01LTWhZTytna25Ic3QxS1A4TE13VXBYVHB1eUFpWDVVYzlWV1RaVUs2ClpBOWtJa05hNWN1TjQ3dUpzM2Vzd1plT3l4YXRHNzIvL2JWUDFNZkM4Z3lranhkcGpjRC9FK05qNXBlNHZNNDAKVW9BZ0FGelh4RnVZTlF3LzRUbnZwd0puRUJyeDJrdmFWaTNMYlFpSkZqY2lkRFNLN3NIWlJmUVVpcXdPeFJlZgpmVEIxcUZCVnVTTkYrLzhpbUpUa2trdVZycUhONkZqbVV4UEJ5QWVERFFUd3BEM1haZnhrSzBydGIrbnUrbHR6Cm9Ja1QzL0RwMDZKK0ZBdFVtQ1VlYm1xalN1L3Z4MXFwQW9JQkFCa3F0M1ZNSi9iazBkcjB6VzRVUmp5ODFxa3IKbCtJQWNaVHFqZ2ZHYUFmVXkrd2Yyc3VaUjFkZGhtT3E5ZFBtdUttRXNZdm00dm5DaTk3OVRJemlpS2RQOGQyQgpZU0ZsdXh1MVVvS1NsQ3RkZ3p2Y3ZNUEFHbDhqSHMrOGk0aWlHbzhSM3ltY1Y5RUdsZUhJRFdGQlpoMmR3bkpaClFGcGxXdEN4U0duS21Ba1pVOU1ybUlRemZ5Mlpzc3JmY1Q4SUgxTWVzVDZZOEx2cyttdXVLUkVqemRTUllUOVoKK3BXNUtUcXFVcVk3TldsNWRRTExnWWlDMDE2WExMQUovQlB3T24ySTloRnNlRHpLSnFGQk13VFY1Vnk2d1BQYQpyS3N3VXBScWp3ZkNCdVdJSnJwQ1NDdjQ5YkhUdVlZakY4Tld6R2xFdFNTaHpaamZybUdpS29iWFp4VT0KLS0tLS1FTkQgUlNBIFBSSVZBVEUgS0VZLS0tLS0K\n    token: jr9su4eye96yljn3po084glgq5k19oibrl1msrbsxz09sfiv1cri95zrg0qmwth84gq5nxptgv300i2vlqlkq38k9l99vwoh09wa1kxyj8xurnue508t1nwpx2zg6z74\n",
+            "kubelet_identity": [
+              {
+                "client_id": "2c341b65-06d8-4f2a-b84b-44afcd2748bf",
+                "object_id": "6db5ef1c-6e33-4ecb-b574-497c81808eda",
+                "user_assigned_identity_id": "/subscriptions/7b15199c-09ec-4924-9493-d0452969667b/resourceGroups/MC_aviatrix-transit-rg_aks-cluster_westeurope/providers/Microsoft.ManagedIdentity/userAssignedIdentities/aks-cluster-agentpool"
+              }
+            ],
+            "kubernetes_version": "1.32",
+            "linux_profile": [],
+            "local_account_disabled": false,
+            "location": "westeurope",
+            "maintenance_window": [],
+            "maintenance_window_auto_upgrade": [],
+            "maintenance_window_node_os": [],
+            "microsoft_defender": [],
+            "monitor_metrics": [],
+            "name": "aks-cluster",
+            "network_profile": [
+              {
+                "dns_service_ip": "172.20.0.10",
+                "ip_versions": [
+                  "IPv4"
+                ],
+                "load_balancer_profile": [
+                  {
+                    "backend_pool_type": "NodeIPConfiguration",
+                    "effective_outbound_ips": [
+                      "/subscriptions/7b15199c-09ec-4924-9493-d0452969667b/resourceGroups/MC_aviatrix-transit-rg_aks-cluster_westeurope/providers/Microsoft.Network/publicIPAddresses/66c49895-cb4b-4518-8166-62bc5541e652"
+                    ],
+                    "idle_timeout_in_minutes": 0,
+                    "managed_outbound_ip_count": 1,
+                    "managed_outbound_ipv6_count": 0,
+                    "outbound_ip_address_ids": [],
+                    "outbound_ip_prefix_ids": [],
+                    "outbound_ports_allocated": 0
+                  }
+                ],
+                "load_balancer_sku": "standard",
+                "nat_gateway_profile": [],
+                "network_data_plane": "azure",
+                "network_mode": "",
+                "network_plugin": "azure",
+                "network_plugin_mode": "",
+                "network_policy": "azure",
+                "outbound_type": "loadBalancer",
+                "pod_cidr": "",
+                "pod_cidrs": [],
+                "service_cidr": "172.20.0.0/16",
+                "service_cidrs": [
+                  "172.20.0.0/16"
+                ]
+              }
+            ],
+            "node_os_upgrade_channel": "NodeImage",
+            "node_resource_group": "MC_aviatrix-transit-rg_aks-cluster_westeurope",
+            "node_resource_group_id": "/subscriptions/7b15199c-09ec-4924-9493-d0452969667b/resourceGroups/MC_aviatrix-transit-rg_aks-cluster_westeurope",
+            "oidc_issuer_enabled": false,
+            "oidc_issuer_url": "",
+            "oms_agent": [],
+            "open_service_mesh_enabled": null,
+            "portal_fqdn": "aks-gy4eduj9.portal.hcp.westeurope.azmk8s.io",
+            "private_cluster_enabled": false,
+            "private_cluster_public_fqdn_enabled": false,
+            "private_dns_zone_id": "",
+            "private_fqdn": "",
+            "resource_group_name": "aviatrix-transit-rg",
+            "role_based_access_control_enabled": true,
+            "run_command_enabled": true,
+            "service_mesh_profile": [],
+            "service_principal": [],
+            "sku_tier": "Free",
+            "storage_profile": [],
+            "support_plan": "KubernetesOfficial",
+            "tags": {},
+            "timeouts": null,
+            "upgrade_override": [],
+            "web_app_routing": [],
+            "windows_profile": [
+              {
+                "admin_password": "",
+                "admin_username": "azureuser",
+                "gmsa": [],
+                "license": ""
+              }
+            ],
+            "workload_autoscaler_profile": [],
+            "workload_identity_enabled": false
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "kube_admin_config"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "kube_admin_config_raw"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "kube_config"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "kube_config_raw"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "windows_profile"
+              },
+              {
+                "type": "index",
+                "value": {
+                  "value": 0,
+                  "type": "number"
+                }
+              },
+              {
+                "type": "get_attr",
+                "value": "admin_password"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo1NDAwMDAwMDAwMDAwLCJkZWxldGUiOjU0MDAwMDAwMDAwMDAsInJlYWQiOjMwMDAwMDAwMDAwMCwidXBkYXRlIjo1NDAwMDAwMDAwMDAwfSwic2NoZW1hX3ZlcnNpb24iOiIyIn0=",
+          "dependencies": [
+            "azurerm_resource_group.azure_rg",
+            "azurerm_resource_group.azure_spoke_rg",
+            "azurerm_subnet.azure_aks_node_subnet",
+            "azurerm_virtual_network.azure_spoke_vnet"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_resource_group",
+      "name": "azure_rg",
+      "provider": "provider[\"registry.terraform.io/hashicorp/azurerm\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "/subscriptions/7b15199c-09ec-4924-9493-d0452969667b/resourceGroups/aviatrix-transit-rg",
+            "location": "westeurope",
+            "managed_by": "",
+            "name": "aviatrix-transit-rg",
+            "tags": {},
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo1NDAwMDAwMDAwMDAwLCJkZWxldGUiOjU0MDAwMDAwMDAwMDAsInJlYWQiOjMwMDAwMDAwMDAwMCwidXBkYXRlIjo1NDAwMDAwMDAwMDAwfX0="
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_resource_group",
+      "name": "azure_spoke_rg",
+      "provider": "provider[\"registry.terraform.io/hashicorp/azurerm\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "id": "/subscriptions/7b15199c-09ec-4924-9493-d0452969667b/resourceGroups/aviatrix-spoke-rg",
+            "location": "westeurope",
+            "managed_by": "",
+            "name": "aviatrix-spoke-rg",
+            "tags": {},
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjo1NDAwMDAwMDAwMDAwLCJkZWxldGUiOjU0MDAwMDAwMDAwMDAsInJlYWQiOjMwMDAwMDAwMDAwMCwidXBkYXRlIjo1NDAwMDAwMDAwMDAwfX0="
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_subnet",
+      "name": "azure_aks_node_subnet",
+      "provider": "provider[\"registry.terraform.io/hashicorp/azurerm\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "address_prefixes": [
+              "10.200.1.0/24"
+            ],
+            "default_outbound_access_enabled": true,
+            "delegation": [],
+            "id": "/subscriptions/7b15199c-09ec-4924-9493-d0452969667b/resourceGroups/aviatrix-spoke-rg/providers/Microsoft.Network/virtualNetworks/azure-spoke-vnet/subnets/aks-node-subnet",
+            "name": "aks-node-subnet",
+            "private_endpoint_network_policies": "Disabled",
+            "private_link_service_network_policies_enabled": true,
+            "resource_group_name": "aviatrix-spoke-rg",
+            "service_endpoint_policy_ids": [],
+            "service_endpoints": [],
+            "timeouts": null,
+            "virtual_network_name": "azure-spoke-vnet"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "identity": {
+            "name": "aks-node-subnet",
+            "resource_group_name": "aviatrix-spoke-rg",
+            "subscription_id": "7b15199c-09ec-4924-9493-d0452969667b",
+            "virtual_network_name": "azure-spoke-vnet"
+          },
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxODAwMDAwMDAwMDAwLCJkZWxldGUiOjE4MDAwMDAwMDAwMDAsInJlYWQiOjMwMDAwMDAwMDAwMCwidXBkYXRlIjoxODAwMDAwMDAwMDAwfX0=",
+          "dependencies": [
+            "azurerm_resource_group.azure_spoke_rg",
+            "azurerm_virtual_network.azure_spoke_vnet"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_subnet",
+      "name": "azure_internal_lb_subnet",
+      "provider": "provider[\"registry.terraform.io/hashicorp/azurerm\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "address_prefixes": [
+              "10.200.2.0/24"
+            ],
+            "default_outbound_access_enabled": true,
+            "delegation": [],
+            "id": "/subscriptions/7b15199c-09ec-4924-9493-d0452969667b/resourceGroups/aviatrix-spoke-rg/providers/Microsoft.Network/virtualNetworks/azure-spoke-vnet/subnets/internal-lb-subnet",
+            "name": "internal-lb-subnet",
+            "private_endpoint_network_policies": "Disabled",
+            "private_link_service_network_policies_enabled": true,
+            "resource_group_name": "aviatrix-spoke-rg",
+            "service_endpoint_policy_ids": [],
+            "service_endpoints": [],
+            "timeouts": null,
+            "virtual_network_name": "azure-spoke-vnet"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "identity": {
+            "name": "internal-lb-subnet",
+            "resource_group_name": "aviatrix-spoke-rg",
+            "subscription_id": "7b15199c-09ec-4924-9493-d0452969667b",
+            "virtual_network_name": "azure-spoke-vnet"
+          },
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxODAwMDAwMDAwMDAwLCJkZWxldGUiOjE4MDAwMDAwMDAwMDAsInJlYWQiOjMwMDAwMDAwMDAwMCwidXBkYXRlIjoxODAwMDAwMDAwMDAwfX0=",
+          "dependencies": [
+            "azurerm_resource_group.azure_spoke_rg",
+            "azurerm_virtual_network.azure_spoke_vnet"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_subnet",
+      "name": "azure_spoke_gw_subnet",
+      "provider": "provider[\"registry.terraform.io/hashicorp/azurerm\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "address_prefixes": [
+              "10.200.0.0/28"
+            ],
+            "default_outbound_access_enabled": true,
+            "delegation": [],
+            "id": "/subscriptions/7b15199c-09ec-4924-9493-d0452969667b/resourceGroups/aviatrix-spoke-rg/providers/Microsoft.Network/virtualNetworks/azure-spoke-vnet/subnets/spoke-gw-subnet",
+            "name": "spoke-gw-subnet",
+            "private_endpoint_network_policies": "Disabled",
+            "private_link_service_network_policies_enabled": true,
+            "resource_group_name": "aviatrix-spoke-rg",
+            "service_endpoint_policy_ids": [],
+            "service_endpoints": [],
+            "timeouts": null,
+            "virtual_network_name": "azure-spoke-vnet"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "identity": {
+            "name": "spoke-gw-subnet",
+            "resource_group_name": "aviatrix-spoke-rg",
+            "subscription_id": "7b15199c-09ec-4924-9493-d0452969667b",
+            "virtual_network_name": "azure-spoke-vnet"
+          },
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxODAwMDAwMDAwMDAwLCJkZWxldGUiOjE4MDAwMDAwMDAwMDAsInJlYWQiOjMwMDAwMDAwMDAwMCwidXBkYXRlIjoxODAwMDAwMDAwMDAwfX0=",
+          "dependencies": [
+            "azurerm_resource_group.azure_spoke_rg",
+            "azurerm_virtual_network.azure_spoke_vnet"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_subnet",
+      "name": "azure_transit_subnet",
+      "provider": "provider[\"registry.terraform.io/hashicorp/azurerm\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "address_prefixes": [
+              "192.168.20.0/28"
+            ],
+            "default_outbound_access_enabled": true,
+            "delegation": [],
+            "id": "/subscriptions/7b15199c-09ec-4924-9493-d0452969667b/resourceGroups/aviatrix-transit-rg/providers/Microsoft.Network/virtualNetworks/azure-transit-vnet/subnets/transit-subnet",
+            "name": "transit-subnet",
+            "private_endpoint_network_policies": "Disabled",
+            "private_link_service_network_policies_enabled": true,
+            "resource_group_name": "aviatrix-transit-rg",
+            "service_endpoint_policy_ids": [],
+            "service_endpoints": [],
+            "timeouts": null,
+            "virtual_network_name": "azure-transit-vnet"
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "identity": {
+            "name": "transit-subnet",
+            "resource_group_name": "aviatrix-transit-rg",
+            "subscription_id": "7b15199c-09ec-4924-9493-d0452969667b",
+            "virtual_network_name": "azure-transit-vnet"
+          },
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxODAwMDAwMDAwMDAwLCJkZWxldGUiOjE4MDAwMDAwMDAwMDAsInJlYWQiOjMwMDAwMDAwMDAwMCwidXBkYXRlIjoxODAwMDAwMDAwMDAwfX0=",
+          "dependencies": [
+            "azurerm_resource_group.azure_rg",
+            "azurerm_virtual_network.azure_transit_vnet"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_virtual_network",
+      "name": "azure_spoke_vnet",
+      "provider": "provider[\"registry.terraform.io/hashicorp/azurerm\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "address_space": [
+              "10.200.0.0/16",
+              "172.20.0.0/16"
+            ],
+            "bgp_community": "",
+            "ddos_protection_plan": [],
+            "dns_servers": [],
+            "edge_zone": "",
+            "encryption": [],
+            "flow_timeout_in_minutes": 0,
+            "guid": "c5feff44-a73d-4053-8d9e-49aadb8fd19c",
+            "id": "/subscriptions/7b15199c-09ec-4924-9493-d0452969667b/resourceGroups/aviatrix-spoke-rg/providers/Microsoft.Network/virtualNetworks/azure-spoke-vnet",
+            "ip_address_pool": [],
+            "location": "westeurope",
+            "name": "azure-spoke-vnet",
+            "private_endpoint_vnet_policies": "Disabled",
+            "resource_group_name": "aviatrix-spoke-rg",
+            "subnet": [
+              {
+                "address_prefixes": [
+                  "10.200.0.0/28"
+                ],
+                "default_outbound_access_enabled": true,
+                "delegation": [],
+                "id": "/subscriptions/7b15199c-09ec-4924-9493-d0452969667b/resourceGroups/aviatrix-spoke-rg/providers/Microsoft.Network/virtualNetworks/azure-spoke-vnet/subnets/spoke-gw-subnet",
+                "name": "spoke-gw-subnet",
+                "private_endpoint_network_policies": "Disabled",
+                "private_link_service_network_policies_enabled": true,
+                "route_table_id": "/subscriptions/7b15199c-09ec-4924-9493-d0452969667b/resourceGroups/aviatrix-spoke-rg/providers/Microsoft.Network/routeTables/azure-spoke-vnet-avx-public",
+                "security_group": "",
+                "service_endpoint_policy_ids": [],
+                "service_endpoints": []
+              },
+              {
+                "address_prefixes": [
+                  "10.200.1.0/24"
+                ],
+                "default_outbound_access_enabled": true,
+                "delegation": [],
+                "id": "/subscriptions/7b15199c-09ec-4924-9493-d0452969667b/resourceGroups/aviatrix-spoke-rg/providers/Microsoft.Network/virtualNetworks/azure-spoke-vnet/subnets/aks-node-subnet",
+                "name": "aks-node-subnet",
+                "private_endpoint_network_policies": "Disabled",
+                "private_link_service_network_policies_enabled": true,
+                "route_table_id": "/subscriptions/7b15199c-09ec-4924-9493-d0452969667b/resourceGroups/aviatrix-spoke-rg/providers/Microsoft.Network/routeTables/azure-spoke-vnet-avx-public",
+                "security_group": "",
+                "service_endpoint_policy_ids": [],
+                "service_endpoints": []
+              },
+              {
+                "address_prefixes": [
+                  "10.200.2.0/24"
+                ],
+                "default_outbound_access_enabled": true,
+                "delegation": [],
+                "id": "/subscriptions/7b15199c-09ec-4924-9493-d0452969667b/resourceGroups/aviatrix-spoke-rg/providers/Microsoft.Network/virtualNetworks/azure-spoke-vnet/subnets/internal-lb-subnet",
+                "name": "internal-lb-subnet",
+                "private_endpoint_network_policies": "Disabled",
+                "private_link_service_network_policies_enabled": true,
+                "route_table_id": "/subscriptions/7b15199c-09ec-4924-9493-d0452969667b/resourceGroups/aviatrix-spoke-rg/providers/Microsoft.Network/routeTables/azure-spoke-vnet-avx-public",
+                "security_group": "",
+                "service_endpoint_policy_ids": [],
+                "service_endpoints": []
+              }
+            ],
+            "tags": {
+              "environment": "spoke"
+            },
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "identity": {
+            "name": "azure-spoke-vnet",
+            "resource_group_name": "aviatrix-spoke-rg",
+            "subscription_id": "7b15199c-09ec-4924-9493-d0452969667b"
+          },
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxODAwMDAwMDAwMDAwLCJkZWxldGUiOjE4MDAwMDAwMDAwMDAsInJlYWQiOjMwMDAwMDAwMDAwMCwidXBkYXRlIjoxODAwMDAwMDAwMDAwfX0=",
+          "dependencies": [
+            "azurerm_resource_group.azure_spoke_rg"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "azurerm_virtual_network",
+      "name": "azure_transit_vnet",
+      "provider": "provider[\"registry.terraform.io/hashicorp/azurerm\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "address_space": [
+              "192.168.20.0/24"
+            ],
+            "bgp_community": "",
+            "ddos_protection_plan": [],
+            "dns_servers": [],
+            "edge_zone": "",
+            "encryption": [],
+            "flow_timeout_in_minutes": 0,
+            "guid": "777152ff-de86-42c7-ba5e-a94e64dfd857",
+            "id": "/subscriptions/7b15199c-09ec-4924-9493-d0452969667b/resourceGroups/aviatrix-transit-rg/providers/Microsoft.Network/virtualNetworks/azure-transit-vnet",
+            "ip_address_pool": [],
+            "location": "westeurope",
+            "name": "azure-transit-vnet",
+            "private_endpoint_vnet_policies": "Disabled",
+            "resource_group_name": "aviatrix-transit-rg",
+            "subnet": [
+              {
+                "address_prefixes": [
+                  "192.168.20.0/28"
+                ],
+                "default_outbound_access_enabled": true,
+                "delegation": [],
+                "id": "/subscriptions/7b15199c-09ec-4924-9493-d0452969667b/resourceGroups/aviatrix-transit-rg/providers/Microsoft.Network/virtualNetworks/azure-transit-vnet/subnets/transit-subnet",
+                "name": "transit-subnet",
+                "private_endpoint_network_policies": "Disabled",
+                "private_link_service_network_policies_enabled": true,
+                "route_table_id": "",
+                "security_group": "",
+                "service_endpoint_policy_ids": [],
+                "service_endpoints": []
+              }
+            ],
+            "tags": {
+              "environment": "transit"
+            },
+            "timeouts": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "identity": {
+            "name": "azure-transit-vnet",
+            "resource_group_name": "aviatrix-transit-rg",
+            "subscription_id": "7b15199c-09ec-4924-9493-d0452969667b"
+          },
+          "private": "eyJlMmJmYjczMC1lY2FhLTExZTYtOGY4OC0zNDM2M2JjN2M0YzAiOnsiY3JlYXRlIjoxODAwMDAwMDAwMDAwLCJkZWxldGUiOjE4MDAwMDAwMDAwMDAsInJlYWQiOjMwMDAwMDAwMDAwMCwidXBkYXRlIjoxODAwMDAwMDAwMDAwfX0=",
+          "dependencies": [
+            "azurerm_resource_group.azure_rg"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "local_file",
+      "name": "aks_kubeconfig",
+      "provider": "provider[\"registry.terraform.io/hashicorp/local\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "content": "apiVersion: v1\nclusters:\n- cluster:\n    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUU2RENDQXRDZ0F3SUJBZ0lRYmtZSDJwcVJ3VFlsa2gzMXU1VUJRekFOQmdrcWhraUc5dzBCQVFzRkFEQU4KTVFzd0NRWURWUVFERXdKallUQWdGdzB5TlRBM01UVXlNVE13TXpGYUdBOHlNRFUxTURjeE5USXhOREF6TVZvdwpEVEVMTUFrR0ExVUVBeE1DWTJFd2dnSWlNQTBHQ1NxR1NJYjNEUUVCQVFVQUE0SUNEd0F3Z2dJS0FvSUNBUURnCi9Cd0ZGRGVnejEvd285QUdrZnF5d3BtbGVKb3hXQnoyakhwTDY4Zm9KS3gwU3RsR1QyQTVvemZnNG5ZZkUrbUUKbWJrYWpDakM3L2JOdnNJV0trNWprbDllUHRDMnp6bjFvSnNzcStCYlloSjJjdDRGMkZ1L0dZS011TVVmYVZEMgpTemFVOFNiVENKUTRIdWNWMzlnSTVPazRhdmJwV0ZHQldIRnMzRkg4RzU2ZjFzcGNzYmlKcnBaN0VpTkNtbUVpCmk4NkoveXhlNmtNVm1KRkY5VzdTbTVxWXpZeDdXd0lCV3pOdmtyU21YV1RabS9TZ3BIZk9VZW9xcFVOTEtNaDAKLzdYMW9JOExjM0oyUFRXUDhrZEFwbnFFTUc3dG8rcHo3ZkN5UUkvdXdENVpPK2NjOTdUV1hjM3hwY2p4bUQ1eApMTW9xSkhxOHhHaEVpa0w4SmpQU3lhV3B0bXd0SVFGY01BbWRaRGc5U1JXVWpFeXAyK2wrVHN6dFFyVEN3cEZwCndqUDZCdXZ5QWdRdzV4NDFUdUVKbCtBenYrYXhFSmF2Y1NqcEdaZjNOUHNXaGp6TTJNaFBEam94d3B4c3kyRVcKeW9ucGFSUVUrUDVPWklkNjRoUXNiMENGQ0RENVd6RUU3WU9OeFZqRExLbCtEQVhrUi9QODlGc1JLdVN6b0RyMgpud0trMjdQMDloOUFVcGNBRUx4TUVqdXZWT2l5bW10bGFhUGlIZmlsM0lqTDAwMXYwcWszVnErMWFnTFFRbURxCnlJTFZKSWxyeTlPUFhwSko2SEFOMk1sNGtpd1NYS3BLV200WnBQbXRJeFIwNXVlbkhEdjg4V2lOVTJsU2JxS2QKbXBQQ2RFNkhSOXR4NUoweHFORkQzUVJTQnJJNkRWUnR1U0NEZzdCTnNRSURBUUFCbzBJd1FEQU9CZ05WSFE4QgpBZjhFQkFNQ0FxUXdEd1lEVlIwVEFRSC9CQVV3QXdFQi96QWRCZ05WSFE0RUZnUVVtWXhHUlIzL2VLRzFMc2NiCkp4aDlZNGJCV1A0d0RRWUpLb1pJaHZjTkFRRUxCUUFEZ2dJQkFKV0NPbnEvbGJKUUdWSUorS2pac1pVNVlON1gKRERrVmVxb3k2TjdONzNOVzUvbnJsYTJ1RUpacnU5V09aeTdMUFdiL2xtdHhUTmp2STFRN0laSG9OdERNeW1nMgpUR2lDcVVGUmVISFA4K2FVQWk3dWFHeE1CaGxhQlFrM1R5dThLTGI0UGdUUHVlamlJZ20yTXZYZ3BKTHoxbkNPClRkYm9wQXRXSy9RWHpBaHhSSGVPR016bS9idU1hVWtON2JPbXFCRTR2THlwbkZSeXRra01HMW1GYldkbE5mSm4KbWExVkpObFdxSDRCTGF4Z0RjLzRTc2hWbWticzgvSDNZM3FWNXphYlEvdlArcFV2THd2UldrblI3eGIxVy9MMwpMaTVidDUwbVloV2V2TGR3NC8zcml2aEhTVkt3amV2NzIzeVRGcTBtSUdmR00zYWRYMXl5d2llVS8rZDhuOC9TCnZrSXMvS2ZvOURlOCtOc1c3TVU0VHlYUE1PZUp3WkdPdm03c1hKUXpPTEMyZGRYcHE0Tjl5TUZHMVovOFlpOWgKRVpub0Mrdm0wRmRLSUNjMEZpRzhzdHBCNUJvVTFjOXBaNGVIc2NXUVR6cjlsQWhSS0dEL2V5Y1ZzaHhNYkd1KwpwT3gweFZTMGUzd2g5UzNqem1mWXRZRXExQkZsVWQ0OEFWYjkwYmVxeVlIam04aEFmUGFIWnA4eGl3a2pvbEpoCjJWZklaK1NIYVlGN3lTV1VQSTVxUHZReXNLV29uU25DdTFMcG5Kbmc1OEg5U2FwY3RLR0JDOVBxcCsrdEZrZ0gKc0RmUjNRdHc5NzNVRnR2WWxnaW0rZ1VpZzFpYzk4eFNNUEJ1MjBUNjdSMVh6c2w1Q3lhM0h2TWdkV0VtSUd3QgppS3dkcmpvakRRQnRHQXJmCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\n    server: https://aks-gy4eduj9.hcp.westeurope.azmk8s.io:443\n  name: aks-cluster\ncontexts:\n- context:\n    cluster: aks-cluster\n    user: clusterUser_aviatrix-transit-rg_aks-cluster\n  name: aks-cluster\ncurrent-context: aks-cluster\nkind: Config\npreferences: {}\nusers:\n- name: clusterUser_aviatrix-transit-rg_aks-cluster\n  user:\n    client-certificate-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUZIakNDQXdhZ0F3SUJBZ0lSQUtRVnRTcUVVRjVqVXJlS1hrY3lqU2t3RFFZSktvWklodmNOQVFFTEJRQXcKRFRFTE1Ba0dBMVVFQXhNQ1kyRXdIaGNOTWpVd056RTFNakV6TURNeFdoY05NamN3TnpFMU1qRTBNRE14V2pBdwpNUmN3RlFZRFZRUUtFdzV6ZVhOMFpXMDZiV0Z6ZEdWeWN6RVZNQk1HQTFVRUF4TU1iV0Z6ZEdWeVkyeHBaVzUwCk1JSUNJakFOQmdrcWhraUc5dzBCQVFFRkFBT0NBZzhBTUlJQ0NnS0NBZ0VBbExtRGsvNTVYeG5tejRKZFZPYjMKSUVwSjVvRFh5NllWa1IvWCtwa3QvWGhEUnhPVUZDdkVoWldPQlVnRDJIalozbHhNM0I5U2FyOUM2UTlueWw0SgowbG9meDd1Q090L2VSalVoWVJXS1h0UERCMC9RNlA5NHJiaGgrTVlCL3hnbkVCRjJEVCtWbnR3d3FRNkRmNDY0Cm1EMzZvazJXYjFtZmFHT0lKQ0ZiN2FSbGdlalp2RGNTaHFVUW5tMlYvaExCTXFVc2hRc2o5ZCtGZlVva1FKMnQKWjA2cXNNNFE5QXZSelpNVm55TXFZTHZUNXF6U1FONUdCR1RKcXM4aDFwZHJ0eUc5SjJsNUxiM25tMnVTZ2Y3TAorNngybyt2czdjRWc3Q3RVN0djUENoNGFlU3B0NFBNMnp1clcxakxEQXJRUUJlYjYwUXBndmlNNGNUSjdhRG9rCnh0cjZ3UWNyVUMwU0pkelVTN3J0aWZaSlp3bEFrd1VWb21HNzNIazdPaGo3Um8weTd6UEppZ01DRi9pWDZlRlEKVnJhY254ZHJkT29OeVpMellPYStmQklhQ1FRaWxCeEcyTGV1VWRpSEd5Mjd1QkQzdzIzWk1kd09NMCtiVWRnZwo3ZVJzSEdQdlZHZFhMWVIxd1luVUdVYkxqZkJ6VWpPTWE0Z3REa1FzSzlGR3ZJVmlXenk2bjNEczNrMEo0dkZ2ClQrUEEzQ0FseE9WT0o5OUVvZktlL3lZNDc5clRZTmYxMGFQczBtU1RYYjdjT3hHZmtHbDRNbThSM3Yxdm5OTDYKVmx4YkVhbzc5L0s5SXRDSnB4eG9yelFGOE9KdGsrYUhKdUZtRXlaeE5vMGllbFhEVUdmb3ZVSWZwN3cvWi9wVAphVXpmWVc3NzFMcXJNRm1sWHV2QXVta0NBd0VBQWFOV01GUXdEZ1lEVlIwUEFRSC9CQVFEQWdXZ01CTUdBMVVkCkpRUU1NQW9HQ0NzR0FRVUZCd01DTUF3R0ExVWRFd0VCL3dRQ01BQXdId1lEVlIwakJCZ3dGb0FVbVl4R1JSMy8KZUtHMUxzY2JKeGg5WTRiQldQNHdEUVlKS29aSWh2Y05BUUVMQlFBRGdnSUJBSUZiVkVpTjBDaTFvVmRkOWtFUQo5TXg1Z1pUdnBSWjRLdlQ0dlBOSFpaYzM0NFJ6OHBjUTNsS1lnYzN5SUJEcldpa1NQV2ZPdE5SRGh5N0RDMDNsCkxPSVppcHUybGVRUmxxT2NLajAyNVBka0dwZlIvWEI2VlJtV1h0c2U3R2RUYURZMnhNV3E5M2FidXc3cklJTEcKU3NUalZUVDVQaXZHdlFkcUJibnV1K0l0Q0Vld2Y4NUNvb3BtdlprUWNXNFc2NUdPWS9wekx2RVdGVm93bFdJNApCc0c2U0ZJbHZRa3RCbnk5UWpMSWk0T2NTZnhERFB5OThKN3FXQVJ5eElJcHdiNjFSdzdNa2VSQzNjdThIdkc1Cjlzc1AyOTlyR3VvZm9SWitCbWpuR0JWY1E1NmtHS1NCRCtPczFaR05lb0x2RHJLNFdmZ3pab0k5dlpZd3pnbXAKMDRyNlRwNldsa01QT3k4bm1OTUV6YStNZk9vRjdkbnhzTFg0YzVidlhsd3RuT0VsZVdUZDVhdVpXdTAyN0pmaApMWTc2VVNRV2QzRTdRYnhBQWt0NWVUL0h2dDAySFRERUFDYUVvS0pISC83bUN3Q1UvSklsSTJ2UTFVT1F1akhmCmNkb1MzWm9EbXl4anBJUWFQTmU5NFA1RjlyaHFoTUh3OHlpYy9TT25PRVphcmlZVGNaMUp1czBqYWNCREpKNUkKd1Y0Q251SVRmVEhNUHhSN05tQTQwSmtaWGxVc2N1NGJuanVYWWlZU2MwSGoxSkd2QnplTTFjOUFOUjkzeVIrbApBQ1NLZmxoUFIyTnJrNTlnRnhGbjFWa2hua28vQm5NZHBqTlk3M2pGOHl6cXJZUFFCSWF0WmsreFl2MVFWa0JNCm02RnN2VnlKcW4wNTgxKy84YjRhdklYdgotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==\n    client-key-data: LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlKS0FJQkFBS0NBZ0VBbExtRGsvNTVYeG5tejRKZFZPYjNJRXBKNW9EWHk2WVZrUi9YK3BrdC9YaERSeE9VCkZDdkVoWldPQlVnRDJIalozbHhNM0I5U2FyOUM2UTlueWw0SjBsb2Z4N3VDT3QvZVJqVWhZUldLWHRQREIwL1EKNlA5NHJiaGgrTVlCL3hnbkVCRjJEVCtWbnR3d3FRNkRmNDY0bUQzNm9rMldiMW1mYUdPSUpDRmI3YVJsZ2VqWgp2RGNTaHFVUW5tMlYvaExCTXFVc2hRc2o5ZCtGZlVva1FKMnRaMDZxc000UTlBdlJ6Wk1WbnlNcVlMdlQ1cXpTClFONUdCR1RKcXM4aDFwZHJ0eUc5SjJsNUxiM25tMnVTZ2Y3TCs2eDJvK3ZzN2NFZzdDdFU3R2NQQ2g0YWVTcHQKNFBNMnp1clcxakxEQXJRUUJlYjYwUXBndmlNNGNUSjdhRG9reHRyNndRY3JVQzBTSmR6VVM3cnRpZlpKWndsQQprd1VWb21HNzNIazdPaGo3Um8weTd6UEppZ01DRi9pWDZlRlFWcmFjbnhkcmRPb055Wkx6WU9hK2ZCSWFDUVFpCmxCeEcyTGV1VWRpSEd5Mjd1QkQzdzIzWk1kd09NMCtiVWRnZzdlUnNIR1B2VkdkWExZUjF3WW5VR1ViTGpmQnoKVWpPTWE0Z3REa1FzSzlGR3ZJVmlXenk2bjNEczNrMEo0dkZ2VCtQQTNDQWx4T1ZPSjk5RW9mS2UveVk0NzlyVApZTmYxMGFQczBtU1RYYjdjT3hHZmtHbDRNbThSM3Yxdm5OTDZWbHhiRWFvNzkvSzlJdENKcHh4b3J6UUY4T0p0CmsrYUhKdUZtRXlaeE5vMGllbFhEVUdmb3ZVSWZwN3cvWi9wVGFVemZZVzc3MUxxck1GbWxYdXZBdW1rQ0F3RUEKQVFLQ0FnQjI1R0w2WVZsWG5GWTJsd25UZ0p3WVZTc0V1UVZLQ09oK3pvMFRDWGVKaEtXTDRXdmtRQ1RuZ1dvNgpjSnFhWitvTFo1QU4vSUFmVSt6Q2NZMVFhcUxCWlVpNG0vNTg0RkJKb2RtZ1NkOEc5WlNZZU1jU0xJQ2xwNXV5CmkyQTNOSEN0MkxlZDJiSGJnRHpxT084SWZ1aTAwLzlUMW1DbmZXY0F4V2lsTVlIUzFUUk1pUC9mQmN1cWxiUlcKWWxhZytRODNWSEhsbmNWT25qU1J0ejZKNVVNbExlOG9UbU9oSlAzQXNJOTlXMWhhWW0wQW9ER29wOGdqWlFzTwpvRzExcGpEM0FtSzdhZ2IwZVRiNHVTTXpCcVM4K2Q4U0pkMlBKM0FSUElhMFFhTDFQS0YvTVZzTGxJTEJJVjFECmVPc0tjelhIOGlHYUVRakxsMDVjdDdXTjJjVmhkdFpXRGgvSFVtbSszUUZ4cXFhWWdSUFkrenA4d0Z4T2RDQ2gKeWp6WTRtVHpqTFErSG9sak9oU1ZzUzQ2aHJaQTAzb0diTXJLQmV4eGNCc1RyYUduaUtONitGaENFcWdFZ1h6UwpPUko5bENpS0wzTFUrZVdXaDFxNmVhWmZzL2I5YzlXcUc4S29sRy9VS0FwZDBjVEFINUQ0WFNhZHhYMmQ2K0hoCnYzRC9vRkE5N256SFRJdnZFeU03Sjd5VzBZRnMxL2sxMW83RWlibjAybDFZQVQzWGtUMDNKbmpmUUNwRTIwUHcKREdIQnFYRHBkczQ5UzQ4djJTcG4zWUdoRjlPclRaNS9MMCtNVjRQYTVRbXd2YzJLWk9sdlJJd0hvNnZDcC84YQpVUG1jc3BLM1FjYVg4ZlRIZnpBSGpQeDVST0REQ3FNTmwvbmVwWitzd1JiSlVURHZUUUtDQVFFQXhkT3lHNWNBCmFFTnY3VE5zNERic1JrM2JXWUNmU1MrVUZZTWJZTzI2Q3lBMmJPeDV4bjZSK0trOW94RWtxODhMYXc1OERRZ24KWnhrRXBjekRwdHFSSGh3Q2NNb3NvY2IwdmtzZXduTzhac1p2VG1sZ2dlRzh3WnV5NFFyMG5YNTVBeW5XY3dEdAovRWE3ck5oaUNFT2xaTWxEbUcxMVpVcjhzeVlMWlU5TVJkRXFLVTE3RHpES013WnBKTk1iT2gvMGF6TWczUnQ4CkcvTkhZVmhwcVFDenBXL0dldHhaSjFvYUVTb3BGaUJ5SkprNXNwSmlpWTEwc1FoVlo3OENJZ1ZLVWRqWm01ancKcXRIMG9YeDYxcTRYR1BnODBSUWNDTktJWllVMHNPdzk5dzVqL3ZaRC9WcU5qYVduckI2dDlield6a2d5OVh4dwpteXZ3RFY0ZExHajd0d0tDQVFFQXdIVnRCTjh3Qi9YRlRNWnRzaldQN0puTFVpWlhLREI0ZzhpbkFlYVJwMDFYCkNjdFJxM2dQcUo4TkV5OWY4ZU9YQTk1WGQ0cnVqb29UQ0NGelVRUHBwdUxHeVFwSGlYWUo5QVFNb3R5Mm9CeDMKVCttMGZ0eWRYZk5qcndqenk0QlVEeXVaMCtJVWVCSFZtM0VkQXg5bkp3Tm80MEpXRUlDc3ZWUmlIUW1xZWtaUQpsTWR6NTZYa1pOdUVCWDl4THZoamU0aTIwa0syRk9qMFBhcWRONFBsSG9tTXBhMmVmS1Q2QVZxVXREODBBS0N1Cmg1MUpXTDB3VXo3Q1hvZk9LV01TYjVRZm0xMVdHaU04QkgwVjlENHpwbkpsTFkvTnFXbzMxN3pmN0xGT2JiRGQKdlAxWXJmRzRBbXo2dktBSXNpdVNXSkNMZGgrd2JqYmd0NjZua3VvNjN3S0NBUUVBbC9zc2NVL1FDMG9MK2pLdwo2WXlvZHRhbnR4byt4VzRkR1czUkllVmhNZHo4a3pBVjJpNHhITldBdWYrWXFibjE3cmlCQzA0Qlg0NXo2S0RvCml3Nk53SkVLT3ZiSDFUM1JsMFNGRENUNFVBa1JTQzlpNmtXdnl4cEFFZTVsd1gyQm9MR0t4RzJwYUZBN0xPNU0KV2tjR0VPa2kyajcxbXUxQ09LdjR3MHRwc0pXaUMzc3dHSnFHTFM4MnBnamRlUWxGc1BubHZKaTUvNHNtZ3AzMwpCdFM0TDFneEp3Q1VLY3hxREZmVW11QXdjUGVhd1JyL1F1Zi9CMmI4bmlpN2pjRjh1R2FkdjVGL0MrMGpRTkV1CldqSURJcmJMbW1FVnJKMTZGbXlBNzQ5L2g0ZHh3VllYSTlSbXZiVFBuVWN3cElNQWtCZ2R0a1YxQ1hGM0NmNE0KOGFweC93S0NBUUFjZ2toLzdEL0ZMaGJuNUl6alZTUFl2SDl0ejlnaFQrektPTExraVM4U1JWYWJVTTdzUTRDdQpUY0UyRWxKNEZtcU1YQ2RBd2dmTWZZK01LTWhZTytna25Ic3QxS1A4TE13VXBYVHB1eUFpWDVVYzlWV1RaVUs2ClpBOWtJa05hNWN1TjQ3dUpzM2Vzd1plT3l4YXRHNzIvL2JWUDFNZkM4Z3lranhkcGpjRC9FK05qNXBlNHZNNDAKVW9BZ0FGelh4RnVZTlF3LzRUbnZwd0puRUJyeDJrdmFWaTNMYlFpSkZqY2lkRFNLN3NIWlJmUVVpcXdPeFJlZgpmVEIxcUZCVnVTTkYrLzhpbUpUa2trdVZycUhONkZqbVV4UEJ5QWVERFFUd3BEM1haZnhrSzBydGIrbnUrbHR6Cm9Ja1QzL0RwMDZKK0ZBdFVtQ1VlYm1xalN1L3Z4MXFwQW9JQkFCa3F0M1ZNSi9iazBkcjB6VzRVUmp5ODFxa3IKbCtJQWNaVHFqZ2ZHYUFmVXkrd2Yyc3VaUjFkZGhtT3E5ZFBtdUttRXNZdm00dm5DaTk3OVRJemlpS2RQOGQyQgpZU0ZsdXh1MVVvS1NsQ3RkZ3p2Y3ZNUEFHbDhqSHMrOGk0aWlHbzhSM3ltY1Y5RUdsZUhJRFdGQlpoMmR3bkpaClFGcGxXdEN4U0duS21Ba1pVOU1ybUlRemZ5Mlpzc3JmY1Q4SUgxTWVzVDZZOEx2cyttdXVLUkVqemRTUllUOVoKK3BXNUtUcXFVcVk3TldsNWRRTExnWWlDMDE2WExMQUovQlB3T24ySTloRnNlRHpLSnFGQk13VFY1Vnk2d1BQYQpyS3N3VXBScWp3ZkNCdVdJSnJwQ1NDdjQ5YkhUdVlZakY4Tld6R2xFdFNTaHpaamZybUdpS29iWFp4VT0KLS0tLS1FTkQgUlNBIFBSSVZBVEUgS0VZLS0tLS0K\n    token: jr9su4eye96yljn3po084glgq5k19oibrl1msrbsxz09sfiv1cri95zrg0qmwth84gq5nxptgv300i2vlqlkq38k9l99vwoh09wa1kxyj8xurnue508t1nwpx2zg6z74\n",
+            "content_base64": null,
+            "content_base64sha256": "ZNJgkVW9Rxbr0Wc4C2SzijZsTSr30HfqolZejPM60/I=",
+            "content_base64sha512": "cnhK6a6T+fj6ABsFvZz3mGUTyRDFuXppB9pnhq6jB7tX17jJx0yc63z7zZDQleqXQgXfZ6SNY5rZzZySR56SKA==",
+            "content_md5": "29f94fbe22e83987cbb942ad052acb17",
+            "content_sha1": "2a90dee8946cc651c6ddce40847a0f097953ee8d",
+            "content_sha256": "64d2609155bd4716ebd167380b64b38a366c4d2af7d077eaa2565e8cf33ad3f2",
+            "content_sha512": "72784ae9ae93f9f8fa001b05bd9cf7986513c910c5b97a6907da6786aea307bb57d7b8c9c74c9ceb7cfbcd90d095ea974205df67a48d639ad9cd9c92479e9228",
+            "directory_permission": "0777",
+            "file_permission": "0777",
+            "filename": "./kubeconfig-aks.yaml",
+            "id": "2a90dee8946cc651c6ddce40847a0f097953ee8d",
+            "sensitive_content": null,
+            "source": null
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "content"
+              }
+            ],
+            [
+              {
+                "type": "get_attr",
+                "value": "sensitive_content"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "dependencies": [
+            "azurerm_kubernetes_cluster.aks_cluster",
+            "azurerm_resource_group.azure_rg",
+            "azurerm_resource_group.azure_spoke_rg",
+            "azurerm_subnet.azure_aks_node_subnet",
+            "azurerm_virtual_network.azure_spoke_vnet"
+          ]
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "local_file",
+      "name": "eks_kubeconfig",
+      "provider": "provider[\"registry.terraform.io/hashicorp/local\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "content": "apiVersion: v1\nkind: Config\nclusters:\n- name: eks-cluster\n  cluster:\n    server: https://95FA68580904C080C689DE5F44F0CF18.gr7.eu-central-1.eks.amazonaws.com\n    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURCVENDQWUyZ0F3SUJBZ0lJWDNJTE9IUjJINUl3RFFZSktvWklodmNOQVFFTEJRQXdGVEVUTUJFR0ExVUUKQXhNS2EzVmlaWEp1WlhSbGN6QWVGdzB5TlRBM01UVXlNVFUxTXpoYUZ3MHpOVEEzTVRNeU1qQXdNemhhTUJVeApFekFSQmdOVkJBTVRDbXQxWW1WeWJtVjBaWE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQkR3QXdnZ0VLCkFvSUJBUUMwNFN1aHBwM2dEZ0tXTTFSMXBoMy8wdHM1M242RU9iL1JOZ2ovbE1teTV3T0JMYzFMNStqV1ZqNFMKaWRBWmJwL3paV05CeitxL3hHdVpxREs1VUd2WlFiZkdyTmcvZlFqYm5waU9mTHBFbTRxa0JZbGlnaS8zUGJKOApvTVlhWlJYUXUrY0dCeEhCbWQ4bWpuU2RZTlVVRkFXRHN5VkFzYnpUM1Q5ZWQwNU12Ynp1ZTd1MzRSK0hlVUlLCmt6QzdwK1dWVmlPQm5uREZoaVQ2Z2QyZzZFaDdIOHZLT0I2Q2o1T2lZRE9kWUdQZmRYd21hc080OVZMQmVmTVIKellocE1QOWJ0cisvOFhMbGQwd3ZOOE45RE1IR3A1U1RVVllQUXJXcEovTG1pbGNzdXM4ekMyb3NDVHplQThqVQpkcEpXYTRQNmRhMGhEQjRFRmpDMnlrK1F0eU5WQWdNQkFBR2pXVEJYTUE0R0ExVWREd0VCL3dRRUF3SUNwREFQCkJnTlZIUk1CQWY4RUJUQURBUUgvTUIwR0ExVWREZ1FXQkJRNXFMdXNjV3FsSWFmbnFqZzVUM0dYd2lsU3lqQVYKQmdOVkhSRUVEakFNZ2dwcmRXSmxjbTVsZEdWek1BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQ01BV1JSU2pFawpOYkxuWGRVSW1lem85RzVFUU13SS9laFZIaElQa0RLTi9taHVERVl0SktHMVo0eXdyQ252d3pMKzY0VGtNQytxCisxVzcyZUVvM3ZkVnRIaFk4N1l0QVlPKzlMZ2JxOTFkbFRESEVIUEhBUHVHMHl6aTBLaXZJaFJQcTdrQmoreFEKN3g4U0hTR041cXZpQXlucVlqbUo2WUtRamszbmxuYjhHTFJCUktQYkE1VEplbUc3MzJ6NE1YRnBTZVVJTC9vUgpWMEpPeThLb1dybnhvZTRNZXhYam9xc2hVd3p6eHpsdEp4YkhuQ01yUTFPRXBYZ0tPU1FXdktVb0trWVVIMnUxCk51WTFwbTBWVjl3Q1RxTEFPME1SbGJnQjJmZHdOWGQrYk9maDJVY2kyd0Q3OEl3NWtIRkZmb3ArN1R1bHZqYjMKb0VZT1hPK2dmR3laCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K\ncontexts:\n- name: eks-cluster\n  context:\n    cluster: eks-cluster\n    user: eks-cluster\ncurrent-context: eks-cluster\nusers:\n- name: eks-cluster\n  user:\n    exec:\n      apiVersion: client.authentication.k8s.io/v1beta1\n      command: aws\n      args:\n        - eks\n        - get-token\n        - --region\n        - eu-central-1\n        - --cluster-name\n        - eks-cluster\n        - --profile\n        - default\n",
+            "content_base64": null,
+            "content_base64sha256": "qwqvnk7Pv4EevMS69+zXqEQppvojnCvhxEkXTn+3zbs=",
+            "content_base64sha512": "Et+NX0NeaY/FQh6IWa0trsFrnEdA5MZSoo2LLbgJsN7fTHKXhdWNKgm4hxsT3PABSdMrkTrYTnbEmENswaP4Ww==",
+            "content_md5": "7d5fa8a578d584fb0ecd38ba59e2ffd6",
+            "content_sha1": "7b04d471ad27a295b6e3e13945b550f958103ea9",
+            "content_sha256": "ab0aaf9e4ecfbf811ebcc4baf7ecd7a84429a6fa239c2be1c449174e7fb7cdbb",
+            "content_sha512": "12df8d5f435e698fc5421e8859ad2daec16b9c4740e4c652a28d8b2db809b0dedf4c729785d58d2a09b8871b13dcf00149d32b913ad84e76c498436cc1a3f85b",
+            "directory_permission": "0777",
+            "file_permission": "0777",
+            "filename": "./kubeconfig-eks.yaml",
+            "id": "7b04d471ad27a295b6e3e13945b550f958103ea9",
+            "sensitive_content": null,
+            "source": null
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "sensitive_content"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "dependencies": [
+            "aws_eks_cluster.eks_cluster",
+            "aws_iam_role.eks_cluster_role",
+            "aws_iam_role_policy_attachment.eks_cluster_AmazonEKSClusterPolicy",
+            "aws_subnet.aws_eks_node_subnet",
+            "aws_subnet.aws_eks_node_subnet_2",
+            "aws_vpc.aws_spoke_vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.aws_spoke",
+      "mode": "managed",
+      "type": "aviatrix_segmentation_network_domain_association",
+      "name": "default",
+      "provider": "provider[\"registry.terraform.io/aviatrixsystems/aviatrix\"]",
+      "instances": []
+    },
+    {
+      "module": "module.aws_spoke",
+      "mode": "managed",
+      "type": "aviatrix_spoke_gateway",
+      "name": "default",
+      "provider": "provider[\"registry.terraform.io/aviatrixsystems/aviatrix\"]",
+      "instances": [
+        {
+          "schema_version": 2,
+          "attributes": {
+            "account_name": "mihaiaviatrix",
+            "allocate_new_eip": true,
+            "approved_learned_cidrs": [],
+            "availability_domain": null,
+            "azure_eip_name_resource_group": null,
+            "bgp_ecmp": false,
+            "bgp_hold_time": 180,
+            "bgp_lan_interfaces_count": 0,
+            "bgp_lan_ip_list": [],
+            "bgp_neighbor_status_polling_time": 5,
+            "bgp_polling_time": 50,
+            "cloud_instance_id": "i-0ae83263e08a1555d",
+            "cloud_type": 1,
+            "customer_managed_keys": null,
+            "customized_spoke_vpc_routes": "",
+            "delete_spot": null,
+            "disable_route_propagation": false,
+            "eip": "35.158.76.30",
+            "enable_active_standby": false,
+            "enable_active_standby_preemptive": false,
+            "enable_auto_advertise_s2c_cidrs": false,
+            "enable_bgp": false,
+            "enable_bgp_over_lan": false,
+            "enable_encrypt_volume": false,
+            "enable_global_vpc": false,
+            "enable_gro_gso": true,
+            "enable_jumbo_frame": true,
+            "enable_learned_cidrs_approval": false,
+            "enable_monitor_gateway_subnets": false,
+            "enable_preserve_as_path": false,
+            "enable_private_oob": false,
+            "enable_private_vpc_default_route": false,
+            "enable_skip_public_route_table_update": false,
+            "enable_spot_instance": null,
+            "enable_vpc_dns_server": false,
+            "fault_domain": null,
+            "filtered_spoke_vpc_routes": "",
+            "gw_name": "mc-aws-spoke",
+            "gw_size": "t3.medium",
+            "ha_availability_domain": "",
+            "ha_azure_eip_name_resource_group": "",
+            "ha_bgp_lan_ip_list": [],
+            "ha_cloud_instance_id": "",
+            "ha_eip": "",
+            "ha_fault_domain": "",
+            "ha_gw_name": "",
+            "ha_gw_size": "",
+            "ha_image_version": "",
+            "ha_insane_mode_az": "",
+            "ha_oob_availability_zone": "",
+            "ha_oob_management_subnet": "",
+            "ha_private_ip": "",
+            "ha_private_mode_subnet_zone": "",
+            "ha_public_ip": "",
+            "ha_security_group_id": "",
+            "ha_software_version": "",
+            "ha_subnet": "",
+            "ha_zone": "",
+            "id": "mc-aws-spoke",
+            "image_version": "avx-gateway-aws-g3-202504251525",
+            "included_advertised_spoke_routes": "172.16.10.100/32",
+            "insane_mode": false,
+            "insane_mode_az": "",
+            "learned_cidrs_approval_mode": "gateway",
+            "local_as_number": "",
+            "manage_ha_gateway": true,
+            "monitor_exclude_list": [],
+            "oob_availability_zone": null,
+            "oob_management_subnet": null,
+            "prepend_as_path": [],
+            "private_ip": "10.100.0.14",
+            "private_mode_lb_vpc_id": "",
+            "private_mode_subnet_zone": "",
+            "public_ip": "35.158.76.30",
+            "rx_queue_size": "",
+            "security_group_id": "sg-0a6e0fc60064cadb0",
+            "single_az_ha": true,
+            "single_ip_snat": false,
+            "software_version": "8.0.0-1000.2432",
+            "spoke_bgp_manual_advertise_cidrs": [],
+            "spot_price": null,
+            "subnet": "10.100.0.0/28",
+            "tags": {},
+            "tunnel_detection_time": 60,
+            "vpc_id": "vpc-048797b2556043224",
+            "vpc_reg": "eu-central-1",
+            "zone": null
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "customer_managed_keys"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjIifQ==",
+          "dependencies": [
+            "aws_route_table.spoke_rt",
+            "aws_subnet.aws_spoke_gw_subnet",
+            "aws_vpc.aws_spoke_vpc",
+            "module.aws_spoke.aviatrix_vpc.default"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.aws_spoke",
+      "mode": "managed",
+      "type": "aviatrix_spoke_gateway_subnet_group",
+      "name": "subnet_groups",
+      "provider": "provider[\"registry.terraform.io/aviatrixsystems/aviatrix\"]",
+      "instances": []
+    },
+    {
+      "module": "module.aws_spoke",
+      "mode": "managed",
+      "type": "aviatrix_spoke_ha_gateway",
+      "name": "additional",
+      "provider": "provider[\"registry.terraform.io/aviatrixsystems/aviatrix\"]",
+      "instances": []
+    },
+    {
+      "module": "module.aws_spoke",
+      "mode": "managed",
+      "type": "aviatrix_spoke_ha_gateway",
+      "name": "hagw",
+      "provider": "provider[\"registry.terraform.io/aviatrixsystems/aviatrix\"]",
+      "instances": []
+    },
+    {
+      "module": "module.aws_spoke",
+      "mode": "managed",
+      "type": "aviatrix_spoke_transit_attachment",
+      "name": "default",
+      "provider": "provider[\"registry.terraform.io/aviatrixsystems/aviatrix\"]",
+      "instances": [
+        {
+          "index_key": 0,
+          "schema_version": 0,
+          "attributes": {
+            "enable_max_performance": true,
+            "id": "mc-aws-spoke~avx-eu-central-1-transit",
+            "route_tables": null,
+            "spoke_bgp_enabled": false,
+            "spoke_gw_name": "mc-aws-spoke",
+            "spoke_prepend_as_path": [],
+            "transit_gateway_logical_ifnames": null,
+            "transit_gw_name": "avx-eu-central-1-transit",
+            "transit_prepend_as_path": [],
+            "tunnel_count": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "aws_internet_gateway.transit_gw",
+            "aws_route_table.spoke_rt",
+            "aws_route_table.transit_rt",
+            "aws_subnet.aws_spoke_gw_subnet",
+            "aws_subnet.aws_transit_subnet",
+            "aws_vpc.aws_spoke_vpc",
+            "aws_vpc.aws_transit_vpc",
+            "module.aws_spoke.aviatrix_spoke_gateway.default",
+            "module.aws_spoke.aviatrix_spoke_ha_gateway.additional",
+            "module.aws_spoke.aviatrix_spoke_ha_gateway.hagw",
+            "module.aws_spoke.aviatrix_vpc.default",
+            "module.aws_transit.aviatrix_transit_gateway.default",
+            "module.aws_transit.aviatrix_vpc.bgp_over_lan_vpc",
+            "module.aws_transit.aviatrix_vpc.default",
+            "module.aws_transit.aviatrix_vpc.lan_vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.aws_spoke",
+      "mode": "managed",
+      "type": "aviatrix_spoke_transit_attachment",
+      "name": "transit_gw_egress",
+      "provider": "provider[\"registry.terraform.io/aviatrixsystems/aviatrix\"]",
+      "instances": []
+    },
+    {
+      "module": "module.aws_spoke",
+      "mode": "managed",
+      "type": "aviatrix_transit_firenet_policy",
+      "name": "default",
+      "provider": "provider[\"registry.terraform.io/aviatrixsystems/aviatrix\"]",
+      "instances": []
+    },
+    {
+      "module": "module.aws_spoke",
+      "mode": "managed",
+      "type": "aviatrix_vpc",
+      "name": "default",
+      "provider": "provider[\"registry.terraform.io/aviatrixsystems/aviatrix\"]",
+      "instances": []
+    },
+    {
+      "module": "module.aws_transit",
+      "mode": "managed",
+      "type": "aviatrix_transit_gateway",
+      "name": "default",
+      "provider": "provider[\"registry.terraform.io/aviatrixsystems/aviatrix\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "account_name": "mihaiaviatrix",
+            "allocate_new_eip": true,
+            "approved_learned_cidrs": [],
+            "availability_domain": null,
+            "azure_eip_name_resource_group": null,
+            "bgp_ecmp": false,
+            "bgp_hold_time": 180,
+            "bgp_lan_interfaces": [],
+            "bgp_lan_interfaces_count": 0,
+            "bgp_lan_ip_list": [],
+            "bgp_manual_spoke_advertise_cidrs": "",
+            "bgp_neighbor_status_polling_time": 5,
+            "bgp_polling_time": 50,
+            "cloud_instance_id": "i-0d7e96e3f60f68166",
+            "cloud_type": 1,
+            "connected_transit": true,
+            "customer_managed_keys": null,
+            "customized_spoke_vpc_routes": "",
+            "customized_transit_vpc_routes": [],
+            "delete_spot": null,
+            "device_id": null,
+            "eip": "3.127.186.201",
+            "eip_map": [],
+            "enable_active_standby": false,
+            "enable_active_standby_preemptive": false,
+            "enable_advertise_transit_cidr": false,
+            "enable_bgp_over_lan": false,
+            "enable_egress_transit_firenet": false,
+            "enable_encrypt_volume": false,
+            "enable_firenet": false,
+            "enable_gateway_load_balancer": false,
+            "enable_gro_gso": true,
+            "enable_hybrid_connection": false,
+            "enable_jumbo_frame": true,
+            "enable_learned_cidrs_approval": false,
+            "enable_monitor_gateway_subnets": false,
+            "enable_multi_tier_transit": false,
+            "enable_preserve_as_path": false,
+            "enable_private_oob": false,
+            "enable_s2c_rx_balancing": false,
+            "enable_segmentation": false,
+            "enable_spot_instance": null,
+            "enable_transit_firenet": false,
+            "enable_transit_summarize_cidr_to_tgw": false,
+            "enable_vpc_dns_server": false,
+            "excluded_advertised_spoke_routes": "",
+            "fault_domain": null,
+            "filtered_spoke_vpc_routes": "",
+            "gw_name": "avx-eu-central-1-transit",
+            "gw_size": "t3.medium",
+            "ha_availability_domain": "",
+            "ha_azure_eip_name_resource_group": "",
+            "ha_bgp_lan_interfaces": [],
+            "ha_bgp_lan_ip_list": [],
+            "ha_cloud_instance_id": "",
+            "ha_device_id": null,
+            "ha_eip": "",
+            "ha_fault_domain": "",
+            "ha_gw_name": "",
+            "ha_gw_size": "",
+            "ha_image_version": "",
+            "ha_insane_mode_az": "",
+            "ha_interfaces": [],
+            "ha_lan_interface_cidr": "",
+            "ha_management_egress_ip_prefix_list": null,
+            "ha_oob_availability_zone": "",
+            "ha_oob_management_subnet": "",
+            "ha_private_ip": "",
+            "ha_private_mode_subnet_zone": "",
+            "ha_public_ip": "",
+            "ha_security_group_id": "",
+            "ha_software_version": "",
+            "ha_subnet": "",
+            "ha_zone": "",
+            "id": "avx-eu-central-1-transit",
+            "image_version": "avx-gateway-aws-g3-202504251525",
+            "insane_mode": false,
+            "insane_mode_az": "",
+            "interface_mapping": [],
+            "interfaces": [],
+            "lan_interface_cidr": "",
+            "lan_private_subnet": null,
+            "lan_vpc_id": null,
+            "learned_cidrs_approval_mode": "gateway",
+            "local_as_number": "",
+            "management_egress_ip_prefix_list": null,
+            "monitor_exclude_list": [],
+            "oob_availability_zone": null,
+            "oob_management_subnet": null,
+            "peer_backup_logical_ifname": null,
+            "peer_connection_type": null,
+            "prepend_as_path": [],
+            "private_ip": "192.168.10.6",
+            "private_mode_lb_vpc_id": "",
+            "private_mode_subnet_zone": "",
+            "public_ip": "3.127.186.201",
+            "rx_queue_size": "",
+            "security_group_id": "sg-06ba36a08c014c93c",
+            "single_az_ha": true,
+            "single_ip_snat": false,
+            "software_version": "8.0.0-1000.2432",
+            "spot_price": null,
+            "subnet": "192.168.10.0/28",
+            "tags": {},
+            "tunnel_detection_time": 60,
+            "vpc_id": "vpc-0824a489e5813427c",
+            "vpc_reg": "eu-central-1",
+            "zone": null,
+            "ztp_file_download_path": null
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "customer_managed_keys"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "dependencies": [
+            "aws_internet_gateway.transit_gw",
+            "aws_route_table.transit_rt",
+            "aws_subnet.aws_transit_subnet",
+            "aws_vpc.aws_transit_vpc",
+            "module.aws_transit.aviatrix_vpc.bgp_over_lan_vpc",
+            "module.aws_transit.aviatrix_vpc.default",
+            "module.aws_transit.aviatrix_vpc.lan_vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.aws_transit",
+      "mode": "managed",
+      "type": "aviatrix_vpc",
+      "name": "bgp_over_lan_vpc",
+      "provider": "provider[\"registry.terraform.io/aviatrixsystems/aviatrix\"]",
+      "instances": []
+    },
+    {
+      "module": "module.aws_transit",
+      "mode": "managed",
+      "type": "aviatrix_vpc",
+      "name": "default",
+      "provider": "provider[\"registry.terraform.io/aviatrixsystems/aviatrix\"]",
+      "instances": []
+    },
+    {
+      "module": "module.aws_transit",
+      "mode": "managed",
+      "type": "aviatrix_vpc",
+      "name": "lan_vpc",
+      "provider": "provider[\"registry.terraform.io/aviatrixsystems/aviatrix\"]",
+      "instances": []
+    },
+    {
+      "module": "module.azure_spoke",
+      "mode": "managed",
+      "type": "aviatrix_spoke_gateway",
+      "name": "default",
+      "provider": "provider[\"registry.terraform.io/aviatrixsystems/aviatrix\"]",
+      "instances": [
+        {
+          "schema_version": 2,
+          "attributes": {
+            "account_name": "azureaviatrix",
+            "allocate_new_eip": true,
+            "approved_learned_cidrs": [],
+            "availability_domain": null,
+            "azure_eip_name_resource_group": null,
+            "bgp_ecmp": false,
+            "bgp_hold_time": 180,
+            "bgp_lan_interfaces_count": 0,
+            "bgp_lan_ip_list": [],
+            "bgp_neighbor_status_polling_time": 5,
+            "bgp_polling_time": 50,
+            "cloud_instance_id": "av-gw-mc-azure-spoke",
+            "cloud_type": 8,
+            "customer_managed_keys": null,
+            "customized_spoke_vpc_routes": "",
+            "delete_spot": null,
+            "disable_route_propagation": false,
+            "eip": "74.178.191.98",
+            "enable_active_standby": false,
+            "enable_active_standby_preemptive": false,
+            "enable_auto_advertise_s2c_cidrs": false,
+            "enable_bgp": false,
+            "enable_bgp_over_lan": false,
+            "enable_encrypt_volume": false,
+            "enable_global_vpc": false,
+            "enable_gro_gso": true,
+            "enable_jumbo_frame": true,
+            "enable_learned_cidrs_approval": false,
+            "enable_monitor_gateway_subnets": false,
+            "enable_preserve_as_path": false,
+            "enable_private_oob": false,
+            "enable_private_vpc_default_route": false,
+            "enable_skip_public_route_table_update": false,
+            "enable_spot_instance": null,
+            "enable_vpc_dns_server": false,
+            "fault_domain": null,
+            "filtered_spoke_vpc_routes": "",
+            "gw_name": "mc-azure-spoke",
+            "gw_size": "Standard_B1ms",
+            "ha_availability_domain": "",
+            "ha_azure_eip_name_resource_group": "",
+            "ha_bgp_lan_ip_list": [],
+            "ha_cloud_instance_id": "",
+            "ha_eip": "",
+            "ha_fault_domain": "",
+            "ha_gw_name": "",
+            "ha_gw_size": "",
+            "ha_image_version": "",
+            "ha_insane_mode_az": "",
+            "ha_oob_availability_zone": "",
+            "ha_oob_management_subnet": "",
+            "ha_private_ip": "",
+            "ha_private_mode_subnet_zone": "",
+            "ha_public_ip": "",
+            "ha_security_group_id": "",
+            "ha_software_version": "",
+            "ha_subnet": "",
+            "ha_zone": "",
+            "id": "mc-azure-spoke",
+            "image_version": "aviatrix-gateway-g3:20250425.1525.0",
+            "included_advertised_spoke_routes": "172.16.20.100/32",
+            "insane_mode": false,
+            "insane_mode_az": "",
+            "learned_cidrs_approval_mode": "gateway",
+            "local_as_number": "",
+            "manage_ha_gateway": true,
+            "monitor_exclude_list": [],
+            "oob_availability_zone": null,
+            "oob_management_subnet": null,
+            "prepend_as_path": [],
+            "private_ip": "10.200.0.4",
+            "private_mode_lb_vpc_id": "",
+            "private_mode_subnet_zone": "",
+            "public_ip": "74.178.191.98",
+            "rx_queue_size": "",
+            "security_group_id": "",
+            "single_az_ha": true,
+            "single_ip_snat": false,
+            "software_version": "8.0.0-1000.2432",
+            "spoke_bgp_manual_advertise_cidrs": [],
+            "spot_price": null,
+            "subnet": "10.200.0.0/28",
+            "tags": {},
+            "tunnel_detection_time": 60,
+            "vpc_id": "azure-spoke-vnet:aviatrix-spoke-rg:c5feff44-a73d-4053-8d9e-49aadb8fd19c",
+            "vpc_reg": "West Europe",
+            "zone": "az-1"
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "customer_managed_keys"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjIifQ==",
+          "dependencies": [
+            "azurerm_resource_group.azure_spoke_rg",
+            "azurerm_subnet.azure_spoke_gw_subnet",
+            "azurerm_virtual_network.azure_spoke_vnet",
+            "module.azure_spoke.aviatrix_vpc.default"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.azure_spoke",
+      "mode": "managed",
+      "type": "aviatrix_spoke_ha_gateway",
+      "name": "additional",
+      "provider": "provider[\"registry.terraform.io/aviatrixsystems/aviatrix\"]",
+      "instances": []
+    },
+    {
+      "module": "module.azure_spoke",
+      "mode": "managed",
+      "type": "aviatrix_spoke_ha_gateway",
+      "name": "hagw",
+      "provider": "provider[\"registry.terraform.io/aviatrixsystems/aviatrix\"]",
+      "instances": []
+    },
+    {
+      "module": "module.azure_spoke",
+      "mode": "managed",
+      "type": "aviatrix_spoke_transit_attachment",
+      "name": "default",
+      "provider": "provider[\"registry.terraform.io/aviatrixsystems/aviatrix\"]",
+      "instances": [
+        {
+          "index_key": 0,
+          "status": "tainted",
+          "schema_version": 0,
+          "attributes": {
+            "enable_max_performance": true,
+            "id": "mc-azure-spoke~avx-west-europe-transit",
+            "route_tables": null,
+            "spoke_bgp_enabled": false,
+            "spoke_gw_name": "mc-azure-spoke",
+            "spoke_prepend_as_path": null,
+            "transit_gateway_logical_ifnames": null,
+            "transit_gw_name": "avx-west-europe-transit",
+            "transit_prepend_as_path": null,
+            "tunnel_count": null
+          },
+          "sensitive_attributes": [],
+          "identity_schema_version": 0,
+          "private": "bnVsbA==",
+          "dependencies": [
+            "azurerm_resource_group.azure_rg",
+            "azurerm_resource_group.azure_spoke_rg",
+            "azurerm_subnet.azure_spoke_gw_subnet",
+            "azurerm_subnet.azure_transit_subnet",
+            "azurerm_virtual_network.azure_spoke_vnet",
+            "azurerm_virtual_network.azure_transit_vnet",
+            "module.azure_spoke.aviatrix_spoke_gateway.default",
+            "module.azure_spoke.aviatrix_spoke_ha_gateway.additional",
+            "module.azure_spoke.aviatrix_spoke_ha_gateway.hagw",
+            "module.azure_spoke.aviatrix_vpc.default",
+            "module.azure_transit.aviatrix_transit_gateway.default",
+            "module.azure_transit.aviatrix_vpc.bgp_over_lan_vpc",
+            "module.azure_transit.aviatrix_vpc.default",
+            "module.azure_transit.aviatrix_vpc.lan_vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.azure_spoke",
+      "mode": "managed",
+      "type": "aviatrix_spoke_transit_attachment",
+      "name": "transit_gw_egress",
+      "provider": "provider[\"registry.terraform.io/aviatrixsystems/aviatrix\"]",
+      "instances": []
+    },
+    {
+      "module": "module.azure_spoke",
+      "mode": "managed",
+      "type": "aviatrix_vpc",
+      "name": "default",
+      "provider": "provider[\"registry.terraform.io/aviatrixsystems/aviatrix\"]",
+      "instances": []
+    },
+    {
+      "module": "module.azure_transit",
+      "mode": "managed",
+      "type": "aviatrix_transit_gateway",
+      "name": "default",
+      "provider": "provider[\"registry.terraform.io/aviatrixsystems/aviatrix\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes": {
+            "account_name": "azureaviatrix",
+            "allocate_new_eip": true,
+            "approved_learned_cidrs": [],
+            "availability_domain": null,
+            "azure_eip_name_resource_group": null,
+            "bgp_ecmp": false,
+            "bgp_hold_time": 180,
+            "bgp_lan_interfaces": [],
+            "bgp_lan_interfaces_count": 0,
+            "bgp_lan_ip_list": [],
+            "bgp_manual_spoke_advertise_cidrs": "",
+            "bgp_neighbor_status_polling_time": 5,
+            "bgp_polling_time": 50,
+            "cloud_instance_id": "av-gw-avx-west-europe-transit",
+            "cloud_type": 8,
+            "connected_transit": true,
+            "customer_managed_keys": null,
+            "customized_spoke_vpc_routes": "",
+            "customized_transit_vpc_routes": [],
+            "delete_spot": null,
+            "device_id": null,
+            "eip": "20.238.234.63",
+            "eip_map": [],
+            "enable_active_standby": false,
+            "enable_active_standby_preemptive": false,
+            "enable_advertise_transit_cidr": false,
+            "enable_bgp_over_lan": false,
+            "enable_egress_transit_firenet": false,
+            "enable_encrypt_volume": false,
+            "enable_firenet": false,
+            "enable_gateway_load_balancer": false,
+            "enable_gro_gso": true,
+            "enable_hybrid_connection": false,
+            "enable_jumbo_frame": true,
+            "enable_learned_cidrs_approval": false,
+            "enable_monitor_gateway_subnets": false,
+            "enable_multi_tier_transit": false,
+            "enable_preserve_as_path": false,
+            "enable_private_oob": false,
+            "enable_s2c_rx_balancing": false,
+            "enable_segmentation": false,
+            "enable_spot_instance": null,
+            "enable_transit_firenet": false,
+            "enable_transit_summarize_cidr_to_tgw": false,
+            "enable_vpc_dns_server": false,
+            "excluded_advertised_spoke_routes": "",
+            "fault_domain": null,
+            "filtered_spoke_vpc_routes": "",
+            "gw_name": "avx-west-europe-transit",
+            "gw_size": "Standard_B1ms",
+            "ha_availability_domain": "",
+            "ha_azure_eip_name_resource_group": "",
+            "ha_bgp_lan_interfaces": [],
+            "ha_bgp_lan_ip_list": [],
+            "ha_cloud_instance_id": "",
+            "ha_device_id": null,
+            "ha_eip": "",
+            "ha_fault_domain": "",
+            "ha_gw_name": "",
+            "ha_gw_size": "",
+            "ha_image_version": "",
+            "ha_insane_mode_az": "",
+            "ha_interfaces": [],
+            "ha_lan_interface_cidr": "",
+            "ha_management_egress_ip_prefix_list": null,
+            "ha_oob_availability_zone": "",
+            "ha_oob_management_subnet": "",
+            "ha_private_ip": "",
+            "ha_private_mode_subnet_zone": "",
+            "ha_public_ip": "",
+            "ha_security_group_id": "",
+            "ha_software_version": "",
+            "ha_subnet": "",
+            "ha_zone": "",
+            "id": "avx-west-europe-transit",
+            "image_version": "aviatrix-gateway-g3:20250425.1525.0",
+            "insane_mode": false,
+            "insane_mode_az": "",
+            "interface_mapping": [],
+            "interfaces": [],
+            "lan_interface_cidr": "",
+            "lan_private_subnet": null,
+            "lan_vpc_id": null,
+            "learned_cidrs_approval_mode": "gateway",
+            "local_as_number": "",
+            "management_egress_ip_prefix_list": null,
+            "monitor_exclude_list": [],
+            "oob_availability_zone": null,
+            "oob_management_subnet": null,
+            "peer_backup_logical_ifname": null,
+            "peer_connection_type": null,
+            "prepend_as_path": [],
+            "private_ip": "192.168.20.4",
+            "private_mode_lb_vpc_id": "",
+            "private_mode_subnet_zone": "",
+            "public_ip": "20.238.234.63",
+            "rx_queue_size": "",
+            "security_group_id": "",
+            "single_az_ha": true,
+            "single_ip_snat": false,
+            "software_version": "8.0.0-1000.2432",
+            "spot_price": null,
+            "subnet": "192.168.20.0/28",
+            "tags": {},
+            "tunnel_detection_time": 60,
+            "vpc_id": "azure-transit-vnet:aviatrix-transit-rg:777152ff-de86-42c7-ba5e-a94e64dfd857",
+            "vpc_reg": "West Europe",
+            "zone": "az-1",
+            "ztp_file_download_path": null
+          },
+          "sensitive_attributes": [
+            [
+              {
+                "type": "get_attr",
+                "value": "customer_managed_keys"
+              }
+            ]
+          ],
+          "identity_schema_version": 0,
+          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ==",
+          "dependencies": [
+            "azurerm_resource_group.azure_rg",
+            "azurerm_subnet.azure_transit_subnet",
+            "azurerm_virtual_network.azure_transit_vnet",
+            "module.azure_transit.aviatrix_vpc.bgp_over_lan_vpc",
+            "module.azure_transit.aviatrix_vpc.default",
+            "module.azure_transit.aviatrix_vpc.lan_vpc"
+          ]
+        }
+      ]
+    },
+    {
+      "module": "module.azure_transit",
+      "mode": "managed",
+      "type": "aviatrix_vpc",
+      "name": "bgp_over_lan_vpc",
+      "provider": "provider[\"registry.terraform.io/aviatrixsystems/aviatrix\"]",
+      "instances": []
+    },
+    {
+      "module": "module.azure_transit",
+      "mode": "managed",
+      "type": "aviatrix_vpc",
+      "name": "default",
+      "provider": "provider[\"registry.terraform.io/aviatrixsystems/aviatrix\"]",
+      "instances": []
+    },
+    {
+      "module": "module.azure_transit",
+      "mode": "managed",
+      "type": "aviatrix_vpc",
+      "name": "lan_vpc",
+      "provider": "provider[\"registry.terraform.io/aviatrixsystems/aviatrix\"]",
+      "instances": []
+    }
+  ],
+  "check_results": [
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_spoke.var.ha_eip",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_spoke.var.ha_eip",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_transit.var.gw_subnet",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_transit.var.gw_subnet",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_spoke.var.region",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_spoke.var.region",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_spoke.var.customized_spoke_vpc_routes",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_spoke.var.customized_spoke_vpc_routes",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_transit.var.hagw_subnet",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_transit.var.hagw_subnet",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_spoke.var.hagw_subnet",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_spoke.var.hagw_subnet",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_transit.var.excluded_advertised_spoke_routes",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_transit.var.excluded_advertised_spoke_routes",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_spoke.var.bgp_hold_time",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_spoke.var.bgp_hold_time",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_spoke.var.cloud",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_spoke.var.cloud",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_transit.var.rx_queue_size",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_transit.var.rx_queue_size",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_spoke.var.customized_spoke_vpc_routes",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_spoke.var.customized_spoke_vpc_routes",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_spoke.var.learned_cidrs_approval_mode",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_spoke.var.learned_cidrs_approval_mode",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_spoke.var.rx_queue_size",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_spoke.var.rx_queue_size",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_transit.var.ha_cidr",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_transit.var.ha_cidr",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_transit.var.gw_name",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_transit.var.gw_name",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_spoke.var.included_advertised_spoke_routes",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_spoke.var.included_advertised_spoke_routes",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_spoke.var.network_domain",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_spoke.var.network_domain",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_spoke.var.spoke_bgp_manual_advertise_cidrs",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_spoke.var.spoke_bgp_manual_advertise_cidrs",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_transit.var.tunnel_detection_time",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_transit.var.tunnel_detection_time",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_spoke.var.name",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_spoke.var.name",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_transit.var.cloud",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_transit.var.cloud",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_spoke.var.bgp_hold_time",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_spoke.var.bgp_hold_time",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_spoke.var.ha_region",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_spoke.var.ha_region",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_spoke.var.additional_group_mode_eips",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_spoke.var.additional_group_mode_eips",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_spoke.var.eip",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_spoke.var.eip",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_transit.var.gw_name",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_transit.var.gw_name",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_spoke.var.gw_name",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_spoke.var.gw_name",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_transit.var.name",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_transit.var.name",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_transit.var.ha_cidr",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_transit.var.ha_cidr",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_transit.var.rx_queue_size",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_transit.var.rx_queue_size",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_spoke.var.ha_region",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_spoke.var.ha_region",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_spoke.var.gw_name",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_spoke.var.gw_name",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_spoke.var.network_domain",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_spoke.var.network_domain",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_transit.var.excluded_advertised_spoke_routes",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_transit.var.excluded_advertised_spoke_routes",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_transit.var.cidr",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_transit.var.cidr",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_spoke.var.learned_cidrs_approval_mode",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_spoke.var.learned_cidrs_approval_mode",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_spoke.var.name",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_spoke.var.name",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_spoke.var.region",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_spoke.var.region",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_transit.var.cloud",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_transit.var.cloud",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_spoke.var.tunnel_detection_time",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_spoke.var.tunnel_detection_time",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_transit.var.gw_subnet",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_transit.var.gw_subnet",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_spoke.var.cidr",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_spoke.var.cidr",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_spoke.var.gw_subnet",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_spoke.var.gw_subnet",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_spoke.var.eip",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_spoke.var.eip",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_spoke.var.included_advertised_spoke_routes",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_spoke.var.included_advertised_spoke_routes",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_transit.var.bgp_hold_time",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_transit.var.bgp_hold_time",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_spoke.var.additional_group_mode_subnets",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_spoke.var.additional_group_mode_subnets",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_spoke.var.filtered_spoke_vpc_routes",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_spoke.var.filtered_spoke_vpc_routes",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_spoke.var.gw_subnet",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_spoke.var.gw_subnet",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_spoke.var.rx_queue_size",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_spoke.var.rx_queue_size",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_spoke.var.bgp_polling_time",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_spoke.var.bgp_polling_time",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_spoke.var.tunnel_detection_time",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_spoke.var.tunnel_detection_time",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_spoke.var.bgp_polling_time",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_spoke.var.bgp_polling_time",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_transit.var.tunnel_detection_time",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_transit.var.tunnel_detection_time",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_spoke.var.approved_learned_cidrs",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_spoke.var.approved_learned_cidrs",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_transit.var.hagw_subnet",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_transit.var.hagw_subnet",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_spoke.var.hagw_subnet",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_spoke.var.hagw_subnet",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_transit.var.lan_cidr",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_transit.var.lan_cidr",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_spoke.var.spoke_bgp_manual_advertise_cidrs",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_spoke.var.spoke_bgp_manual_advertise_cidrs",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_spoke.var.additional_group_mode_subnets",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_spoke.var.additional_group_mode_subnets",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_transit.var.bgp_hold_time",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_transit.var.bgp_hold_time",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_spoke.var.ha_cidr",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_spoke.var.ha_cidr",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_transit.var.cidr",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_transit.var.cidr",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_transit.var.bgp_lan_interfaces_count",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_transit.var.bgp_lan_interfaces_count",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_spoke.var.filtered_spoke_vpc_routes",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_spoke.var.filtered_spoke_vpc_routes",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_spoke.var.cloud",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_spoke.var.cloud",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_spoke.var.ha_cidr",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_spoke.var.ha_cidr",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_transit.var.bgp_lan_interfaces_count",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_transit.var.bgp_lan_interfaces_count",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_transit.var.lan_cidr",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_transit.var.lan_cidr",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_spoke.var.ha_eip",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_spoke.var.ha_eip",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_transit.var.name",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_transit.var.name",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.azure_spoke.var.approved_learned_cidrs",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.azure_spoke.var.approved_learned_cidrs",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_spoke.var.additional_group_mode_eips",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_spoke.var.additional_group_mode_eips",
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "object_kind": "var",
+      "config_addr": "module.aws_spoke.var.cidr",
+      "status": "pass",
+      "objects": [
+        {
+          "object_addr": "module.aws_spoke.var.cidr",
+          "status": "pass"
+        }
+      ]
+    }
+  ]
+}
