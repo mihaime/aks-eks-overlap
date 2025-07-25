@@ -4,6 +4,11 @@
 This repository provisions an **EKS cluster on AWS** and an **AKS cluster on Azure** and deploys a multi‑cluster Voting App across them.  
 
 These notes capture key lessons, dependencies, and fixes discovered during development.
+---
+
+![Architecture Diagram](architecture.png)
+
+---
 
 ---
 
