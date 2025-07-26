@@ -78,3 +78,16 @@ These notes capture key lessons, dependencies, and fixes discovered during devel
     alias       = "eks"
     config_path = "${path.module}/kubeconfig-eks.yaml"
   }
+
+## 🔑 Aviatrix Azure Permissions for AKS Discovery
+
+For Aviatrix to discover the AKS cluster, you must:
+
+1. **Create a custom role** with the following permissions:
+   - `Microsoft.ContainerService/managedClusters/read`
+   - `Microsoft.ContainerService/managedClusters/listClusterUserCredential/action`
+
+2. **Assign this custom role** at the **Subscription level** to the **App Registration** used by the Aviatrix Controller.  
+   - This is **in addition to** any existing role (e.g., `Contributor`) already assigned.
+
+> 💡 Without these permissions, Aviatrix will not be able to discover or interact with the AKS cluster.
