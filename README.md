@@ -86,6 +86,7 @@ For Aviatrix to discover the AKS cluster, you must:
 1. **Create a custom role** with the following permissions:
    - `Microsoft.ContainerService/managedClusters/read`
    - `Microsoft.ContainerService/managedClusters/listClusterUserCredential/action`
+   - `Microsoft.ResourceGraph/resources/read`                  
 
 2. **Assign this custom role** at the **Subscription level** to the **App Registration** used by the Aviatrix Controller.  
    - This is **in addition to** any existing role (e.g., `Contributor`) already assigned.
