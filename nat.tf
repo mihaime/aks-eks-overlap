@@ -71,6 +71,8 @@ resource "aviatrix_gateway_dnat" "aws_eks_to_azure_postgres_redis" {
     dnat_ips   = var.azure_postgres_lbip
   }
 
+  depends_on = [ module.azure_spoke ]
+
 }
 
 resource "aviatrix_gateway_snat" "aws_to_azure_postgres_redis_snat_gw_ip" {
@@ -91,6 +93,8 @@ resource "aviatrix_gateway_snat" "aws_to_azure_postgres_redis_snat_gw_ip" {
     mark       = "65536"
     snat_ips   = module.azure_spoke.spoke_gateway.private_ip
   }
+
+  depends_on = [ module.aws_spoke ]
 }
 
 
