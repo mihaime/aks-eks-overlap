@@ -10,12 +10,13 @@
 ## PC CLIENT --> EKS LB --> WEB APP on 2 pods --> connects to PostGres/Redis over VIP exposed by Spoke in Azure --> ends up in overlapping
 ## internal LB IP in AKS --> goes to Postgres/Redis PODs
 
+
 resource "kubernetes_namespace" "vote_ns" {
   provider = kubernetes.eks
   metadata {
     name = "aviatrix-vote"
   }
-  depends_on = [null_resource.generate_kubeconfig]
+  depends_on = [null_resource.generate_kubeconfig, module.eks]
 }
 
 resource "kubernetes_deployment" "vote_app" {

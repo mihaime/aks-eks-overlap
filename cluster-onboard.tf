@@ -2,8 +2,9 @@
 ## FOR LIST CLUSTERS & co, see the README.md file
 
 resource "aviatrix_kubernetes_cluster" "aks" {
-  cluster_id          = lower(data.azurerm_kubernetes_cluster.aks.id)
+  cluster_id          = lower(data.azurerm_kubernetes_cluster.aks_id.id)
   use_csp_credentials = true
+  depends_on = [ azurerm_kubernetes_cluster.aks_cluster ]
 }
 
 ## THIS one was erroring out and I needed more rights, see below
@@ -11,6 +12,7 @@ resource "aviatrix_kubernetes_cluster" "aks" {
 resource "aviatrix_kubernetes_cluster" "eks" {
   cluster_id          = module.eks.cluster_arn
   use_csp_credentials = true
+  depends_on = [ module.eks ]
 }
 
 ############################################
@@ -26,6 +28,7 @@ resource "aws_eks_access_entry" "aviatrix" {
   principal_arn     = "arn:aws:iam::${data.aws_caller_identity.current.account_id}:role/aviatrix-role-app"
   kubernetes_groups = ["view-nodes"]
   type              = "STANDARD"
+  depends_on = [ module.eks ]
 }
 
 # Attach AmazonEKSViewPolicy for cluster-wide view
@@ -44,7 +47,7 @@ resource "aws_eks_access_policy_association" "aviatrix" {
 # Create a Kubernetes ClusterRole to allow "view-nodes" group to view nodes
 resource "kubernetes_cluster_role" "aviatrix_view_nodes" {
   provider = kubernetes.eks
-  depends_on = [null_resource.generate_kubeconfig]
+  depends_on = [null_resource.generate_kubeconfig, module.eks]
   metadata {
     name = "view-nodes"
   }

@@ -32,8 +32,8 @@ module "eks" {
   ]
   eks_managed_node_groups = {
     default = {
-      instance_types = ["m5.large"]
-      min_size       = 1
+      instance_types = ["t3.medium"]
+      min_size     = 1
       max_size       = 4
       desired_size   = 2
     }
@@ -56,6 +56,8 @@ aws eks update-kubeconfig \
 EOT
   }
 }
+
+
 
 output "eks_cluster_name" {
   description = "Endpoint for EKS control plane"

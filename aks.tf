@@ -56,11 +56,12 @@ resource "local_file" "aks_kubeconfig" {
 
 
 
+
 ####### WITHOUT THIS REDIS AND POSTGRES CANNOT DEPLOY INTERNAL LB AS SERVICE INSIDE THE AKS-NODE-SUBNET ########
 # Give AKS permission to modify its internal LB subnet
 
 # Get AKS cluster info
-data "azurerm_kubernetes_cluster" "aks" {
+data "azurerm_kubernetes_cluster" "aks_id" {
   name                = azurerm_kubernetes_cluster.aks_cluster.name
   resource_group_name = azurerm_kubernetes_cluster.aks_cluster.resource_group_name
 }
@@ -69,7 +70,7 @@ data "azurerm_kubernetes_cluster" "aks" {
 resource "azurerm_role_assignment" "aks_node_subnet_contributor" {
   scope                = azurerm_subnet.azure_aks_node_subnet.id
   role_definition_name = "Network Contributor"
-  principal_id         = data.azurerm_kubernetes_cluster.aks.identity[0].principal_id
+  principal_id         = data.azurerm_kubernetes_cluster.aks_id.identity[0].principal_id
 
   depends_on = [
     azurerm_kubernetes_cluster.aks_cluster,
@@ -82,7 +83,7 @@ resource "azurerm_role_assignment" "aks_node_subnet_contributor" {
 resource "azurerm_role_assignment" "aks_internal_lb_subnet_contributor" {
   scope                = azurerm_subnet.azure_internal_lb_subnet.id
   role_definition_name = "Network Contributor"
-  principal_id         = data.azurerm_kubernetes_cluster.aks.identity[0].principal_id
+  principal_id         = data.azurerm_kubernetes_cluster.aks_id.identity[0].principal_id
 
   depends_on = [
     azurerm_kubernetes_cluster.aks_cluster,
