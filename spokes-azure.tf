@@ -86,6 +86,8 @@ module "azure_spoke" {
   transit_gw                       = module.azure_transit.transit_gateway.gw_name
   included_advertised_spoke_routes = "${var.azure_redis_avx_vip}/32,${var.azure_postgres_avx_vip}/32"
   depends_on                       = [azurerm_subnet.azure_spoke_gw_subnet, azurerm_subnet.azure_aks_node_subnet, azurerm_subnet.azure_internal_lb_subnet, azurerm_resource_group.azure_spoke_rg, azurerm_virtual_network.azure_spoke_vnet]
+  spoke_prepend_as_path   = []
+  transit_prepend_as_path = []
 }
 
 # ATTACHMENT GIVES CONTEXT DEADLINE EXCEEDED error

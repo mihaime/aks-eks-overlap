@@ -40,6 +40,18 @@ resource "aviatrix_gateway_snat" "aws_eks_to_azure_postgres_redis" {
     snat_ips   = var.aws_snat_vip
   }
 
+    snat_policy {
+    src_cidr   = aws_vpc.aws_spoke_vpc.cidr_block # AWS EKS pod/service range
+    dst_cidr   = "${var.azure_postgres_avx_vip}/32"  # VIP for Azure internal LB
+    dst_port   = 5432                             # Redis port
+    protocol   = "tcp"
+    interface  = "eth0" # leave empty for default
+    connection = module.aws_transit.transit_gateway.gw_name
+    snat_ips   = var.aws_snat_vip
+  }
+
+  depends_on = [ module.aws_spoke ]
+
 }
 
 
@@ -58,7 +70,7 @@ resource "aviatrix_gateway_dnat" "aws_eks_to_azure_postgres_redis" {
     protocol   = "tcp"
     connection = module.azure_transit.transit_gateway.gw_name
     mark       = "65535"
-    dnat_ips   = var.azure_redis_lbip
+    dnat_ips   = var.azure_postgres_lbip
   }
 
   dnat_policy {
@@ -68,7 +80,7 @@ resource "aviatrix_gateway_dnat" "aws_eks_to_azure_postgres_redis" {
     protocol   = "tcp"
     connection = module.azure_transit.transit_gateway.gw_name
     mark       = "65536"
-    dnat_ips   = var.azure_postgres_lbip
+    dnat_ips   = var.azure_redis_lbip
   }
 
   depends_on = [ module.azure_spoke ]
@@ -76,25 +88,30 @@ resource "aviatrix_gateway_dnat" "aws_eks_to_azure_postgres_redis" {
 }
 
 resource "aviatrix_gateway_snat" "aws_to_azure_postgres_redis_snat_gw_ip" {
-  gw_name   = module.aws_spoke.spoke_gateway.gw_name
+  gw_name   = module.azure_spoke.spoke_gateway.gw_name
   snat_mode = "customized_snat"
   snat_policy {
-    protocol   = "all"
+    src_cidr = "${var.aws_snat_vip}/32"
+    dst_cidr = "${var.azure_redis_lbip}/32" # VIP for Azure internal LB
+    protocol   = "tcp"
+    dst_port = 6379
     interface  = "eth0"
     connection = "None"
-    mark       = "65535"
     snat_ips   = module.azure_spoke.spoke_gateway.private_ip
+    apply_route_entry = false
   }
-
   snat_policy {
-    protocol   = "all"
+    src_cidr = "${var.aws_snat_vip}/32"
+    dst_cidr = "${var.azure_postgres_lbip}/32" # VIP for Azure internal LB
+    protocol   = "tcp"
+    dst_port = 5432
     interface  = "eth0"
     connection = "None"
-    mark       = "65536"
     snat_ips   = module.azure_spoke.spoke_gateway.private_ip
+    apply_route_entry = false
   }
 
-  depends_on = [ module.aws_spoke ]
+  depends_on = [ module.azure_spoke ]
 }
 
 
